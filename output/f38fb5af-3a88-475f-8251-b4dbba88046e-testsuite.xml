@@ -1,0 +1,143 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616748647378' stop='1616748742536'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616748734888' status='failed' stop='1616748742200'>
+            <name>find mobiles scenario @working</name>
+            <title>find mobiles scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616748734900' status='passed' stop='1616748736756'>
+                    <name>Given navigate to flipkartSignUp Page </name>
+                    <title>Given navigate to flipkartSignUp Page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616748734900' status='passed' stop='1616748736756'>
+                            <name>Object: navigateToFlipkartSignUpPage </name>
+                            <title>Object: navigateToFlipkartSignUpPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616748734900' status='passed' stop='1616748736755'>
+                                    <name>I am on page "https://www.flipkart.com/"</name>
+                                    <title>I am on page "https://www.flipkart.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616748736756' status='passed' stop='1616748742151'>
+                    <name>And enter the details </name>
+                    <title>And enter the details </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616748736756' status='passed' stop='1616748736886'>
+                            <name>Object: cutLoginPage </name>
+                            <title>Object: cutLoginPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616748736756' status='passed' stop='1616748736792'>
+                                    <name>I wait for visible "//button[text()="✕"]", 10</name>
+                                    <title>I wait for visible "//button[text()="✕"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616748736792' status='passed' stop='1616748736886'>
+                                    <name>I click "//button[text()="✕"]"</name>
+                                    <title>I click "//button[text()="✕"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616748736886' status='passed' stop='1616748742151'>
+                            <name>Object: clickSearch </name>
+                            <title>Object: clickSearch </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616748736886' status='passed' stop='1616748736916'>
+                                    <name>I wait for visible "//input[@placeholder="Search for products, brands and more"]", 50</name>
+                                    <title>I wait for visible "//input[@placeholder="Search for products, brands and more"]", 50</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616748736916' status='passed' stop='1616748736991'>
+                                    <name>I click "//input[@placeholder="Search for products, brands and more"]"</name>
+                                    <title>I click "//input[@placeholder="Search for products, brands and more"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616748736991' status='passed' stop='1616748737012'>
+                                    <name>I wait for visible "//input[@placeholder="Search for products, brands and more"]", 20</name>
+                                    <title>I wait for visible "//input[@placeholder="Search for products, brands and more"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616748737012' status='passed' stop='1616748737099'>
+                                    <name>I fill field "//input[@placeholder="Search for products, brands and more"]", "mobiles"</name>
+                                    <title>I fill field "//input[@placeholder="Search for products, brands and more"]", "mobiles"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616748737099' status='passed' stop='1616748737148'>
+                                    <name>I press key "Enter"</name>
+                                    <title>I press key "Enter"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616748737148' status='passed' stop='1616748742151'>
+                                    <name>I wait 5</name>
+                                    <title>I wait 5</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616748742151' status='failed' stop='1616748742200'>
+                    <name>Then print the value </name>
+                    <title>Then print the value </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616748742151' status='failed' stop='1616748742200'>
+                            <name>Object: printTheValue </name>
+                            <title>Object: printTheValue </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616748742151' status='passed' stop='1616748742182'>
+                                    <name>I wait for visible "(//div[text()="₹6,999"])[1]", 10</name>
+                                    <title>I wait for visible "(//div[text()="₹6,999"])[1]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616748742182' status='failed' stop='1616748742199'>
+                                    <name>I grab text from "x"</name>
+                                    <title>I grab text from "x"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='83ac825e-3e4c-4ef6-a34f-ef1039a629e4-attachment.png' type='image/png' size='155382'/>
+            </attachments>
+            <failure>
+                <message>Element "x" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Element "x" was not found by text|CSS|XPath
+                    at new ElementNotFound (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at assertElementExists (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\helper\WebDriver.js:2772:11)
+                    at WebDriver.grabTextFrom (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\helper\WebDriver.js:1084:5)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

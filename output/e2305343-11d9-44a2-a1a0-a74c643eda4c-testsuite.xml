@@ -1,0 +1,167 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618294177265' stop='1618294254574'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1618294188116' status='failed' stop='1618294253931'>
+            <name>lenskart shop scenario @working</name>
+            <title>lenskart shop scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1618294188128' status='passed' stop='1618294212013'>
+                    <name>Given navigate to lenskart Page </name>
+                    <title>Given navigate to lenskart Page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1618294188128' status='passed' stop='1618294212013'>
+                            <name>Object: navigateToLenskartPage </name>
+                            <title>Object: navigateToLenskartPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1618294188128' status='passed' stop='1618294212013'>
+                                    <name>I am on page "https://www.lenskart.com/"</name>
+                                    <title>I am on page "https://www.lenskart.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1618294212013' status='failed' stop='1618294253930'>
+                    <name>Then select the product </name>
+                    <title>Then select the product </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1618294212013' status='passed' stop='1618294212148'>
+                            <name>Object: cancelPopUp </name>
+                            <title>Object: cancelPopUp </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1618294212013' status='passed' stop='1618294212076'>
+                                    <name>I wait for visible "//button[@class="No thanks"]", 10</name>
+                                    <title>I wait for visible "//button[@class="No thanks"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1618294212076' status='passed' stop='1618294212148'>
+                                    <name>I click "//button[@class="No thanks"]"</name>
+                                    <title>I click "//button[@class="No thanks"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1618294212148' status='passed' stop='1618294212330'>
+                            <name>Object: cursorMoving </name>
+                            <title>Object: cursorMoving </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1618294212148' status='passed' stop='1618294212176'>
+                                    <name>I wait for visible "//a[text()="Computer Glasses"]", 10</name>
+                                    <title>I wait for visible "//a[text()="Computer Glasses"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1618294212176' status='passed' stop='1618294212330'>
+                                    <name>I move cursor to "//a[text()="Computer Glasses"]", 1, 1</name>
+                                    <title>I move cursor to "//a[text()="Computer Glasses"]", 1, 1</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1618294212330' status='passed' stop='1618294212532'>
+                            <name>Object: selectGender </name>
+                            <title>Object: selectGender </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1618294212330' status='passed' stop='1618294212358'>
+                                    <name>I wait for visible "(//span[text()="men"])[2]", 10</name>
+                                    <title>I wait for visible "(//span[text()="men"])[2]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1618294212358' status='passed' stop='1618294212532'>
+                                    <name>I move cursor to "(//span[text()="men"])[2]"</name>
+                                    <title>I move cursor to "(//span[text()="men"])[2]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1618294212532' status='passed' stop='1618294212743'>
+                            <name>Object: selectPrice </name>
+                            <title>Object: selectPrice </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1618294212532' status='passed' stop='1618294212564'>
+                                    <name>I wait for visible "(//span[text()="Blu 0 Computer Glasses"])[1]", 10</name>
+                                    <title>I wait for visible "(//span[text()="Blu 0 Computer Glasses"])[1]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1618294212564' status='passed' stop='1618294212743'>
+                                    <name>I click "(//span[text()="Blu 0 Computer Glasses"])[1]"</name>
+                                    <title>I click "(//span[text()="Blu 0 Computer Glasses"])[1]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1618294212743' status='passed' stop='1618294213913'>
+                            <name>Object: selectProduct </name>
+                            <title>Object: selectProduct </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1618294212743' status='passed' stop='1618294213487'>
+                                    <name>I wait for visible "(//img[@title="Vincent Chase Computer Glasses"])[1]", 10</name>
+                                    <title>I wait for visible "(//img[@title="Vincent Chase Computer Glasses"])[1]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1618294213487' status='passed' stop='1618294213562'>
+                                    <name>I move cursor to "(//img[@title="Vincent Chase Computer Glasses"])[1]"</name>
+                                    <title>I move cursor to "(//img[@title="Vincent Chase Computer Glasses"])[1]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1618294213562' status='passed' stop='1618294213913'>
+                                    <name>I click "(//img[@title="Vincent Chase Computer Glasses"])[1]"</name>
+                                    <title>I click "(//img[@title="Vincent Chase Computer Glasses"])[1]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1618294213913' status='failed' stop='1618294253930'>
+                            <name>Object: clickOnFinalSelection </name>
+                            <title>Object: clickOnFinalSelection </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1618294213913' status='failed' stop='1618294253928'>
+                                    <name>I wait for visible "//button[text()="SELECT LENSES"]", 40</name>
+                                    <title>I wait for visible "//button[text()="SELECT LENSES"]", 40</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='3631ab82-258a-453b-927a-b9e325732ded-attachment.png' type='image/png' size='165066'/>
+            </attachments>
+            <failure>
+                <message>element (//button[text()="SELECT LENSES"]) still not visible after 40 sec</message>
+                <stack-trace>Error: element (//button[text()="SELECT LENSES"]) still not visible after 40 sec
+                    at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriverio\build\commands\browser\waitUntil.js:30:15
+                    at async Browser.wrapCommandFn (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\@wdio\utils\build\shim.js:74:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618209198103' stop='1618209211132'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1618209210764' status='failed' stop='1618209210769'>
+            <name>lenskart shop scenario @working</name>
+            <title>lenskart shop scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='9ec23176-3735-43c9-b306-a67fc1b1c80b-attachment.png' type='image/png' size='4700'/>
+            </attachments>
+            <failure>
+                <message>No steps matching "navigate to google Page"</message>
+                <stack-trace>Error: No steps matching "navigate to google Page"
+                    at matchStep (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\interfaces\bdd.js:43:9)
+                    at runSteps (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\interfaces\gherkin.js:37:18)
+                    at Test.&lt;anonymous> (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\interfaces\gherkin.js:87:46)
+                    at Context.test.fn (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\scenario.js:56:14)
+                    at callFnAsync (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\mocha\lib\runnable.js:415:21)
+                    at Test.Runnable.run (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\mocha\lib\runnable.js:357:7)
+                    at Runner.runTest (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\mocha\lib\runner.js:535:10)
+                    at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\mocha\lib\runner.js:653:12
+                    at next (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\mocha\lib\runner.js:447:14)
+                    at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\mocha\lib\runner.js:457:7</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617103432559' stop='1617103445004'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1617103443608' status='failed' stop='1617103444658'>
+            <name>sauce Demo Scenario @working</name>
+            <title>sauce Demo Scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1617103443616' status='passed' stop='1617103444544'>
+                    <name>Given navigate to sauceDemo Page </name>
+                    <title>Given navigate to sauceDemo Page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617103443616' status='passed' stop='1617103444544'>
+                            <name>Object: navigateToSauceDemoPage </name>
+                            <title>Object: navigateToSauceDemoPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617103443616' status='passed' stop='1617103444543'>
+                                    <name>I am on page " https://www.saucedemo.com/"</name>
+                                    <title>I am on page " https://www.saucedemo.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617103444544' status='failed' stop='1617103444658'>
+                    <name>And enter the username and pw </name>
+                    <title>And enter the username and pw </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617103444544' status='failed' stop='1617103444658'>
+                            <name>Object: enterUserName </name>
+                            <title>Object: enterUserName </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617103444544' status='passed' stop='1617103444596'>
+                                    <name>I wait for visible "//input[@id="user-name"]", 10</name>
+                                    <title>I wait for visible "//input[@id="user-name"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617103444596' status='failed' stop='1617103444657'>
+                                    <name>I select option "//input[@id="user-name"]", "standard_user"</name>
+                                    <title>I select option "//input[@id="user-name"]", "standard_user"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='11d6e98b-94bb-4d3d-a603-1a9b28084a06-attachment.png' type='image/png' size='48055'/>
+            </attachments>
+            <failure>
+                <message>Option "standard_user" in "//input[@id="user-name"]" was not found neither by a visible text nor by a value</message>
+                <stack-trace>Error: Option "standard_user" in "//input[@id="user-name"]" was not found neither by a visible text nor by a value
+                    at new ElementNotFound (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at WebDriver.selectOption (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\helper\WebDriver.js:1007:13)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

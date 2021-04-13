@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616493589126' stop='1616493688704'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616493682956' status='passed' stop='1616493688653'>
+            <name>Window Handling @working</name>
+            <title>Window Handling @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616493682963' status='passed' stop='1616493688653'>
+                    <name>Given navigate to window page </name>
+                    <title>Given navigate to window page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616493682963' status='passed' stop='1616493688653'>
+                            <name>Object: navigateToWindowPage </name>
+                            <title>Object: navigateToWindowPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616493682963' status='passed' stop='1616493688652'>
+                                    <name>I am on page " https://www.air.irctc.co.in/"</name>
+                                    <title>I am on page " https://www.air.irctc.co.in/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

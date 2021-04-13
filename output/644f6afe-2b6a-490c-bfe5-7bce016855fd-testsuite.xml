@@ -1,0 +1,228 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617093796121' stop='1617093814362'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1617093808970' status='passed' stop='1617093814285'>
+            <name>find mobiles scenario @working</name>
+            <title>find mobiles scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1617093808980' status='passed' stop='1617093811137'>
+                    <name>Given navigate to flipkartSignUp Page </name>
+                    <title>Given navigate to flipkartSignUp Page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617093808980' status='passed' stop='1617093811137'>
+                            <name>Object: navigateToFlipkartSignUpPage </name>
+                            <title>Object: navigateToFlipkartSignUpPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617093808980' status='passed' stop='1617093811137'>
+                                    <name>I am on page "https://www.flipkart.com/"</name>
+                                    <title>I am on page "https://www.flipkart.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617093811137' status='passed' stop='1617093813663'>
+                    <name>And enter the details </name>
+                    <title>And enter the details </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617093811137' status='passed' stop='1617093811258'>
+                            <name>Object: cutLoginPage </name>
+                            <title>Object: cutLoginPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617093811137' status='passed' stop='1617093811172'>
+                                    <name>I wait for visible "//button[text()="✕"]", 10</name>
+                                    <title>I wait for visible "//button[text()="✕"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617093811172' status='passed' stop='1617093811258'>
+                                    <name>I click "//button[text()="✕"]"</name>
+                                    <title>I click "//button[text()="✕"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617093811258' status='passed' stop='1617093813663'>
+                            <name>Object: clickSearch </name>
+                            <title>Object: clickSearch </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617093811258' status='passed' stop='1617093811287'>
+                                    <name>I wait for visible "//input[@placeholder="Search for products, brands and more"]", 50</name>
+                                    <title>I wait for visible "//input[@placeholder="Search for products, brands and more"]", 50</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617093811287' status='passed' stop='1617093811363'>
+                                    <name>I click "//input[@placeholder="Search for products, brands and more"]"</name>
+                                    <title>I click "//input[@placeholder="Search for products, brands and more"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617093811363' status='passed' stop='1617093811397'>
+                                    <name>I wait for visible "//input[@placeholder="Search for products, brands and more"]", 20</name>
+                                    <title>I wait for visible "//input[@placeholder="Search for products, brands and more"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617093811397' status='passed' stop='1617093811610'>
+                                    <name>I fill field "//input[@placeholder="Search for products, brands and more"]", "best realme mobiles under 8000"</name>
+                                    <title>I fill field "//input[@placeholder="Search for products, brands and more"]", "best realme mobiles under 8000"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617093811610' status='passed' stop='1617093811652'>
+                                    <name>I press key "Enter"</name>
+                                    <title>I press key "Enter"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617093811653' status='passed' stop='1617093813663'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617093813663' status='passed' stop='1617093813755'>
+                    <name>Then print the value </name>
+                    <title>Then print the value </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617093813663' status='passed' stop='1617093813755'>
+                            <name>Object: printTheValue </name>
+                            <title>Object: printTheValue </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617093813663' status='passed' stop='1617093813722'>
+                                    <name>I wait for visible "(//div[text()="₹7,499"])[2]", 40</name>
+                                    <title>I wait for visible "(//div[text()="₹7,499"])[2]", 40</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617093813722' status='passed' stop='1617093813754'>
+                                    <name>I grab text from "(//div[text()="₹7,499"])[2]"</name>
+                                    <title>I grab text from "(//div[text()="₹7,499"])[2]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617093813755' status='passed' stop='1617093814284'>
+                    <name>Then verify the detail of mobiles </name>
+                    <title>Then verify the detail of mobiles </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617093813755' status='passed' stop='1617093813850'>
+                            <name>Object: verifyDetails </name>
+                            <title>Object: verifyDetails </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617093813755' status='passed' stop='1617093813780'>
+                                    <name>I wait for visible "//span[text()="Filters"]", 10</name>
+                                    <title>I wait for visible "//span[text()="Filters"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617093813780' status='passed' stop='1617093813800'>
+                                    <name>I see element "//span[text()="Filters"]"</name>
+                                    <title>I see element "//span[text()="Filters"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617093813800' status='passed' stop='1617093813827'>
+                                    <name>I wait for visible "//span[text()="CATEGORIES"]", 10</name>
+                                    <title>I wait for visible "//span[text()="CATEGORIES"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617093813827' status='passed' stop='1617093813850'>
+                                    <name>I see element "//span[text()="CATEGORIES"]"</name>
+                                    <title>I see element "//span[text()="CATEGORIES"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617093813850' status='passed' stop='1617093814239'>
+                            <name>Object: verifyImage </name>
+                            <title>Object: verifyImage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617093813850' status='passed' stop='1617093814058'>
+                                    <name>I wait for visible "//img[@src="//static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png"]", 10</name>
+                                    <title>I wait for visible "//img[@src="//static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617093814058' status='passed' stop='1617093814239'>
+                                    <name>I see element "//img[@src="//static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png"]"</name>
+                                    <title>I see element "//img[@src="//static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617093814239' status='passed' stop='1617093814284'>
+                            <name>Object: verifyMobile </name>
+                            <title>Object: verifyMobile </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617093814239' status='passed' stop='1617093814264'>
+                                    <name>I wait for visible "//div[text()="realme C11 (Rich Green, 32 GB)"]", 10</name>
+                                    <title>I wait for visible "//div[text()="realme C11 (Rich Green, 32 GB)"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617093814264' status='passed' stop='1617093814284'>
+                                    <name>I see element "//div[text()="realme C11 (Rich Green, 32 GB)"]"</name>
+                                    <title>I see element "//div[text()="realme C11 (Rich Green, 32 GB)"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617093814286' status='undefined'>
+                    <name>Object: printTheValue </name>
+                    <title>Object: printTheValue </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617093814286' status='passed' stop='1617093814311'>
+                            <name>I wait for visible "(//span[text()="best realme mobiles under 8000"])[2]/..", 20</name>
+                            <title>I wait for visible "(//span[text()="best realme mobiles under 8000"])[2]/..", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1617093814311' status='passed' stop='1617093814341'>
+                            <name>I grab text from "(//span[text()="best realme mobiles under 8000"])[2]/.."</name>
+                            <title>I grab text from "(//span[text()="best realme mobiles under 8000"])[2]/.."</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

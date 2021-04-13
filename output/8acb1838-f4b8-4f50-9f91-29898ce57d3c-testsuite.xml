@@ -1,0 +1,187 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616404251636' stop='1616404282812'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616404279176' status='failed' stop='1616404282476'>
+            <name>Signup scenario @working</name>
+            <title>Signup scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616404279186' status='passed' stop='1616404280567'>
+                    <name>Given navigate to signUp Page </name>
+                    <title>Given navigate to signUp Page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616404279186' status='passed' stop='1616404280567'>
+                            <name>Object: reachedToHomePage </name>
+                            <title>Object: reachedToHomePage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616404279187' status='passed' stop='1616404280567'>
+                                    <name>I am on page "http://www.facebook.com/"</name>
+                                    <title>I am on page "http://www.facebook.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616404280567' status='failed' stop='1616404282476'>
+                    <name>And fill the form </name>
+                    <title>And fill the form </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616404280567' status='passed' stop='1616404280669'>
+                            <name>Object: clickOnCreatNewAccount </name>
+                            <title>Object: clickOnCreatNewAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616404280567' status='passed' stop='1616404280602'>
+                                    <name>I wait for visible "//a[text()="Create New Account"]", 20</name>
+                                    <title>I wait for visible "//a[text()="Create New Account"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616404280602' status='passed' stop='1616404280669'>
+                                    <name>I click "//a[text()="Create New Account"]"</name>
+                                    <title>I click "//a[text()="Create New Account"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616404280669' status='passed' stop='1616404281856'>
+                            <name>Object: enterFirstName </name>
+                            <title>Object: enterFirstName </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616404280669' status='passed' stop='1616404281732'>
+                                    <name>I wait for visible "//input[@name="firstname"]", 20</name>
+                                    <title>I wait for visible "//input[@name="firstname"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616404281732' status='passed' stop='1616404281856'>
+                                    <name>I fill field "//input[@name="firstname"]", "shiryank"</name>
+                                    <title>I fill field "//input[@name="firstname"]", "shiryank"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616404281856' status='passed' stop='1616404282009'>
+                            <name>Object: enterSurNameData </name>
+                            <title>Object: enterSurNameData </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616404281856' status='passed' stop='1616404281885'>
+                                    <name>I wait for visible "//input[@name="lastname"]", 20</name>
+                                    <title>I wait for visible "//input[@name="lastname"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616404281885' status='passed' stop='1616404282009'>
+                                    <name>I fill field "//input[@name="lastname"]", "bansal"</name>
+                                    <title>I fill field "//input[@name="lastname"]", "bansal"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616404282009' status='passed' stop='1616404282161'>
+                            <name>Object: enterMailData </name>
+                            <title>Object: enterMailData </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616404282009' status='passed' stop='1616404282034'>
+                                    <name>I wait for visible "//input[@name="reg_email__"]", 20</name>
+                                    <title>I wait for visible "//input[@name="reg_email__"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616404282034' status='passed' stop='1616404282161'>
+                                    <name>I fill field "//input[@name="reg_email__"]", "shiryank.b@gmail.com"</name>
+                                    <title>I fill field "//input[@name="reg_email__"]", "shiryank.b@gmail.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616404282161' status='passed' stop='1616404282315'>
+                            <name>Object: enterNewPassData </name>
+                            <title>Object: enterNewPassData </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616404282161' status='passed' stop='1616404282187'>
+                                    <name>I wait for visible "//input[@name="reg_passwd__"]", 20</name>
+                                    <title>I wait for visible "//input[@name="reg_passwd__"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616404282187' status='passed' stop='1616404282315'>
+                                    <name>I fill field "//input[@name="reg_passwd__"]", "Bansal@123"</name>
+                                    <title>I fill field "//input[@name="reg_passwd__"]", "Bansal@123"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616404282315' status='passed' stop='1616404282410'>
+                            <name>Object: enterBirthDayData </name>
+                            <title>Object: enterBirthDayData </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616404282315' status='passed' stop='1616404282340'>
+                                    <name>I wait for visible "//select[@id="day"]", 20</name>
+                                    <title>I wait for visible "//select[@id="day"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616404282340' status='passed' stop='1616404282410'>
+                                    <name>I select option "//select[@id="day"]", "16"</name>
+                                    <title>I select option "//select[@id="day"]", "16"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616404282410' status='failed' stop='1616404282476'>
+                            <name>Object: enterBirthMonthData </name>
+                            <title>Object: enterBirthMonthData </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616404282410' status='passed' stop='1616404282434'>
+                                    <name>I wait for visible "//select[@name="birthday_month"]", 20</name>
+                                    <title>I wait for visible "//select[@name="birthday_month"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616404282434' status='failed' stop='1616404282475'>
+                                    <name>I select option "//select[@name="birthday_month"]", "April"</name>
+                                    <title>I select option "//select[@name="birthday_month"]", "April"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='21ecc36d-0889-44a6-936b-4ecc0ce7eaa4-attachment.png' type='image/png' size='54639'/>
+            </attachments>
+            <failure>
+                <message>Option "April" in "//select[@name="birthday_month"]" was not found neither by a visible text nor by a value</message>
+                <stack-trace>Error: Option "April" in "//select[@name="birthday_month"]" was not found neither by a visible text nor by a value
+                    at new ElementNotFound (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at WebDriver.selectOption (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\helper\WebDriver.js:1007:13)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

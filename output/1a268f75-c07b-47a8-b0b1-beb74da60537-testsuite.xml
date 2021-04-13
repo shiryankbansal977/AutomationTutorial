@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616485762912' stop='1616485799136'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616485785179' status='failed' stop='1616485798828'>
+            <name>Frame Handling @working</name>
+            <title>Frame Handling @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616485785188' status='passed' stop='1616485788639'>
+                    <name>Given navigate to frame page </name>
+                    <title>Given navigate to frame page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616485785188' status='passed' stop='1616485788639'>
+                            <name>Object: navigateToFramePage </name>
+                            <title>Object: navigateToFramePage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616485785188' status='passed' stop='1616485788638'>
+                                    <name>I am on page " http://demo.automationtesting.in/Frames.html"</name>
+                                    <title>I am on page " http://demo.automationtesting.in/Frames.html"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616485788639' status='failed' stop='1616485798828'>
+                    <name>Given enter text in single frame </name>
+                    <title>Given enter text in single frame </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616485788639' status='failed' stop='1616485798828'>
+                            <name>Object: enterTextInSingleFrame </name>
+                            <title>Object: enterTextInSingleFrame </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616485788639' status='passed' stop='1616485788773'>
+                                    <name>I wait for visible "//iframe", 5</name>
+                                    <title>I wait for visible "//iframe", 5</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616485788773' status='passed' stop='1616485788817'>
+                                    <name>I switch to "//iframe"</name>
+                                    <title>I switch to "//iframe"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616485788817' status='failed' stop='1616485798827'>
+                                    <name>I wait for visible "//input[@type="text"])", 10</name>
+                                    <title>I wait for visible "//input[@type="text"])", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='b801659f-d7a1-4af0-bef4-5207cae6bc6c-attachment.png' type='image/png' size='23106'/>
+            </attachments>
+            <failure>
+                <message>waitUntil condition failed with the following reason: invalid selector: Unable to locate an element with the xpath expression //input[@type="text"]) because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@type="text"])' is not a valid XPath expression.
+                  (Session info: chrome=89.0.4389.90)</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: invalid selector: Unable to locate an element with the xpath expression //input[@type="text"]) because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@type="text"])' is not a valid XPath expression.
+                  (Session info: chrome=89.0.4389.90)
+                    at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriverio\build\commands\browser\waitUntil.js:36:11
+                    at async Browser.wrapCommandFn (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\@wdio\utils\build\shim.js:74:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

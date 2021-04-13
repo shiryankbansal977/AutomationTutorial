@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617190466891' stop='1617190496661'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1617190478793' status='failed' stop='1617190496223'>
+            <name>find products scenario @working</name>
+            <title>find products scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1617190481357' status='passed' stop='1617190484343'>
+                    <name>Given user is on coolWinks site </name>
+                    <title>Given user is on coolWinks site </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617190481358' status='passed' stop='1617190484343'>
+                            <name>Object: navigateToCoolWinksSite </name>
+                            <title>Object: navigateToCoolWinksSite </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617190481358' status='passed' stop='1617190484343'>
+                                    <name>I am on page "https://www.coolwinks.com/"</name>
+                                    <title>I am on page "https://www.coolwinks.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617190484343' status='failed' stop='1617190496222'>
+                    <name>And click on sunglasses and select men </name>
+                    <title>And click on sunglasses and select men </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617190484343' status='passed' stop='1617190486214'>
+                            <name>Object: clickOnSunglasses </name>
+                            <title>Object: clickOnSunglasses </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617190484343' status='passed' stop='1617190484385'>
+                                    <name>I wait for visible "//a[text()="Sunglasses"]", 10</name>
+                                    <title>I wait for visible "//a[text()="Sunglasses"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617190484385' status='passed' stop='1617190486214'>
+                                    <name>I click "//a[text()="Sunglasses"]"</name>
+                                    <title>I click "//a[text()="Sunglasses"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617190486214' status='failed' stop='1617190496222'>
+                            <name>Object: sunGlassesMenu </name>
+                            <title>Object: sunGlassesMenu </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617190486214' status='failed' stop='1617190496219'>
+                                    <name>I wait for visible "(//span[text()="Men"])[2]", 10</name>
+                                    <title>I wait for visible "(//span[text()="Men"])[2]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='69bd115a-3b88-4d8b-b531-fb45ee13bc28-attachment.png' type='image/png' size='381616'/>
+            </attachments>
+            <failure>
+                <message>element ((//span[text()="Men"])[2]) still not visible after 10 sec</message>
+                <stack-trace>Error: element ((//span[text()="Men"])[2]) still not visible after 10 sec
+                    at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriverio\build\commands\browser\waitUntil.js:30:15
+                    at async Browser.wrapCommandFn (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\@wdio\utils\build\shim.js:74:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

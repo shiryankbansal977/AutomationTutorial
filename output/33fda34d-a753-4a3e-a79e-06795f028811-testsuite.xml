@@ -1,0 +1,221 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617195934188' stop='1617195962899'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1617195948100' status='failed' stop='1617195962540'>
+            <name>find products scenario @working</name>
+            <title>find products scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1617195952896' status='passed' stop='1617195955809'>
+                    <name>Given user is on coolWinks site </name>
+                    <title>Given user is on coolWinks site </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617195952896' status='passed' stop='1617195955809'>
+                            <name>Object: navigateToCoolWinksSite </name>
+                            <title>Object: navigateToCoolWinksSite </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617195952896' status='passed' stop='1617195955809'>
+                                    <name>I am on page "https://www.coolwinks.com/"</name>
+                                    <title>I am on page "https://www.coolwinks.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617195955809' status='passed' stop='1617195957813'>
+                    <name>And click on sunglasses and select men </name>
+                    <title>And click on sunglasses and select men </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617195955809' status='passed' stop='1617195955915'>
+                            <name>Object: clickOnSunglasses </name>
+                            <title>Object: clickOnSunglasses </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617195955809' status='passed' stop='1617195955857'>
+                                    <name>I wait for visible "//a[text()="Sunglasses"]", 10</name>
+                                    <title>I wait for visible "//a[text()="Sunglasses"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617195955857' status='passed' stop='1617195955915'>
+                                    <name>I move cursor to "//a[text()="Sunglasses"]", 1, 1</name>
+                                    <title>I move cursor to "//a[text()="Sunglasses"]", 1, 1</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617195955915' status='passed' stop='1617195957813'>
+                            <name>Object: sunGlassesMenu </name>
+                            <title>Object: sunGlassesMenu </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617195955915' status='passed' stop='1617195956269'>
+                                    <name>I wait for visible "(//span[text()="Men"])[2]", 10</name>
+                                    <title>I wait for visible "(//span[text()="Men"])[2]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617195956269' status='passed' stop='1617195957812'>
+                                    <name>I click "(//span[text()="Men"])[2]"</name>
+                                    <title>I click "(//span[text()="Men"])[2]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617195957813' status='passed' stop='1617195960834'>
+                    <name>Then add item to the cart </name>
+                    <title>Then add item to the cart </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617195957813' status='passed' stop='1617195959286'>
+                            <name>Object: selectProductImage </name>
+                            <title>Object: selectProductImage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617195957813' status='passed' stop='1617195957856'>
+                                    <name>I wait for visible "//img[@src="https://cwcdn.coolwinks.com/mobile/mobile-prod-images-lite/SS_S67D6307-1.jpg"]", 10</name>
+                                    <title>I wait for visible "//img[@src="https://cwcdn.coolwinks.com/mobile/mobile-prod-images-lite/SS_S67D6307-1.jpg"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617195957856' status='passed' stop='1617195959286'>
+                                    <name>I click "//img[@src="https://cwcdn.coolwinks.com/mobile/mobile-prod-images-lite/SS_S67D6307-1.jpg"]"</name>
+                                    <title>I click "//img[@src="https://cwcdn.coolwinks.com/mobile/mobile-prod-images-lite/SS_S67D6307-1.jpg"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617195959286' status='passed' stop='1617195959391'>
+                            <name>Object: addProduct </name>
+                            <title>Object: addProduct </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617195959286' status='passed' stop='1617195959320'>
+                                    <name>I wait for visible "//button[@id="S67D6307_0"]", 10</name>
+                                    <title>I wait for visible "//button[@id="S67D6307_0"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617195959320' status='passed' stop='1617195959391'>
+                                    <name>I click "//button[@id="S67D6307_0"]"</name>
+                                    <title>I click "//button[@id="S67D6307_0"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617195959391' status='passed' stop='1617195960834'>
+                            <name>Object: addItemToTheCart </name>
+                            <title>Object: addItemToTheCart </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617195959391' status='passed' stop='1617195960834'>
+                                    <name>I am on page "https://www.coolwinks.com/"</name>
+                                    <title>I am on page "https://www.coolwinks.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617195960834' status='failed' stop='1617195962539'>
+                    <name>Then verify the detail of product in the cart </name>
+                    <title>Then verify the detail of product in the cart </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617195960834' status='passed' stop='1617195962429'>
+                            <name>Object: verifyCartNumber </name>
+                            <title>Object: verifyCartNumber </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617195960834' status='passed' stop='1617195960875'>
+                                    <name>I wait for visible "//div[text()="1"]", 10</name>
+                                    <title>I wait for visible "//div[text()="1"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617195960875' status='passed' stop='1617195960896'>
+                                    <name>I see element "//div[text()="1"]"</name>
+                                    <title>I see element "//div[text()="1"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617195960896' status='passed' stop='1617195962429'>
+                                    <name>I click "//div[text()="1"]"</name>
+                                    <title>I click "//div[text()="1"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617195962429' status='passed' stop='1617195962482'>
+                            <name>Object: verifyImageDetail </name>
+                            <title>Object: verifyImageDetail </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617195962429' status='passed' stop='1617195962461'>
+                                    <name>I wait for visible "//img[@src="https://cwcdn.coolwinks.com/mobile/mobile-prod-images-lite/S67D6307-2.jpg"]", 10</name>
+                                    <title>I wait for visible "//img[@src="https://cwcdn.coolwinks.com/mobile/mobile-prod-images-lite/S67D6307-2.jpg"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617195962461' status='passed' stop='1617195962482'>
+                                    <name>I see element "//img[@src="https://cwcdn.coolwinks.com/mobile/mobile-prod-images-lite/S67D6307-2.jpg"]"</name>
+                                    <title>I see element "//img[@src="https://cwcdn.coolwinks.com/mobile/mobile-prod-images-lite/S67D6307-2.jpg"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617195962482' status='failed' stop='1617195962539'>
+                            <name>Object: verifyPriceData </name>
+                            <title>Object: verifyPriceData </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617195962482' status='passed' stop='1617195962506'>
+                                    <name>I wait for visible "//span[text()="₹1150"]", 10</name>
+                                    <title>I wait for visible "//span[text()="₹1150"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617195962506' status='passed' stop='1617195962539'>
+                                    <name>I see element "//span[text()="₹1150"]"</name>
+                                    <title>I see element "//span[text()="₹1150"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='7072260d-855d-440a-b160-6f7c2a028c4c-attachment.png' type='image/png' size='135072'/>
+            </attachments>
+            <failure>
+                <message>I.clear is not a function</message>
+                <stack-trace>TypeError: I.clear is not a function
+                    at Object.verifyTheDetailOfProductInTheCart (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\src\pages\coolWinksPage.js:72:11)
+                    at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\src\step_definitions\web\coolWinksStepsFile.js:25:11
+                    at runSteps (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\interfaces\gherkin.js:48:15)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616402088889' stop='1616402119670'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616402114873' status='failed' stop='1616402119358'>
+            <name>Signup scenario @working</name>
+            <title>Signup scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616402114883' status='passed' stop='1616402117193'>
+                    <name>Given navigate to signUp Page </name>
+                    <title>Given navigate to signUp Page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616402114883' status='passed' stop='1616402117193'>
+                            <name>Object: reachedToHomePage </name>
+                            <title>Object: reachedToHomePage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616402114883' status='passed' stop='1616402117193'>
+                                    <name>I am on page "http://www.facebook.com/"</name>
+                                    <title>I am on page "http://www.facebook.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616402117193' status='failed' stop='1616402119358'>
+                    <name>And fill the form </name>
+                    <title>And fill the form </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616402117193' status='passed' stop='1616402117299'>
+                            <name>Object: clickOnCreatNewAccount </name>
+                            <title>Object: clickOnCreatNewAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616402117193' status='passed' stop='1616402117231'>
+                                    <name>I wait for visible "//a[text()="Create New Account"]", 20</name>
+                                    <title>I wait for visible "//a[text()="Create New Account"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616402117231' status='passed' stop='1616402117299'>
+                                    <name>I click "//a[text()="Create New Account"]"</name>
+                                    <title>I click "//a[text()="Create New Account"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616402117299' status='failed' stop='1616402119358'>
+                            <name>Object: enterFirstName </name>
+                            <title>Object: enterFirstName </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616402117299' status='passed' stop='1616402119343'>
+                                    <name>I wait for visible "//input[@name="firstname"]", 20</name>
+                                    <title>I wait for visible "//input[@name="firstname"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616402119343' status='failed' stop='1616402119357'>
+                                    <name>I fill field "//input[@name="firstname"]", </name>
+                                    <title>I fill field "//input[@name="firstname"]", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='e7558e90-1773-4709-9f23-2bc4d3a3ca1f-attachment.png' type='image/png' size='54323'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'toString' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'toString' of undefined
+                    at WebDriver.fillField (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\helper\WebDriver.js:955:32)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

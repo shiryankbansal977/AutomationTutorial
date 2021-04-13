@@ -1,0 +1,130 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617341964848' stop='1617341991659'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1617341979587' status='failed' stop='1617341991105'>
+            <name>sauce Demo Scenario @working</name>
+            <title>sauce Demo Scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1617341979602' status='passed' stop='1617341980126'>
+                    <name>Given navigate to sauceDemo Page </name>
+                    <title>Given navigate to sauceDemo Page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617341979602' status='passed' stop='1617341980126'>
+                            <name>Object: navigateToSauceDemoPage </name>
+                            <title>Object: navigateToSauceDemoPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617341979602' status='passed' stop='1617341980125'>
+                                    <name>I am on page " https://www.saucedemo.com/"</name>
+                                    <title>I am on page " https://www.saucedemo.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617341980126' status='passed' stop='1617341981090'>
+                    <name>And enter the username and pw </name>
+                    <title>And enter the username and pw </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617341980126' status='passed' stop='1617341980455'>
+                            <name>Object: enterUserName </name>
+                            <title>Object: enterUserName </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617341980126' status='passed' stop='1617341980181'>
+                                    <name>I wait for visible "//input[@name="user-name"]", 40</name>
+                                    <title>I wait for visible "//input[@name="user-name"]", 40</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617341980181' status='passed' stop='1617341980455'>
+                                    <name>I fill field "//input[@name="user-name"]", "standard_user"</name>
+                                    <title>I fill field "//input[@name="user-name"]", "standard_user"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617341980455' status='passed' stop='1617341980820'>
+                            <name>Object: enterPassword </name>
+                            <title>Object: enterPassword </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617341980455' status='passed' stop='1617341980527'>
+                                    <name>I wait for visible "//input[@id="password"]", 10</name>
+                                    <title>I wait for visible "//input[@id="password"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617341980527' status='passed' stop='1617341980820'>
+                                    <name>I fill field "//input[@id="password"]", "secret_sauce"</name>
+                                    <title>I fill field "//input[@id="password"]", "secret_sauce"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617341980820' status='passed' stop='1617341981090'>
+                            <name>Object: clickLogin </name>
+                            <title>Object: clickLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617341980820' status='passed' stop='1617341980893'>
+                                    <name>I wait for visible "//input[@id="login-button"]", 10</name>
+                                    <title>I wait for visible "//input[@id="login-button"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617341980893' status='passed' stop='1617341981090'>
+                                    <name>I click "//input[@id="login-button"]"</name>
+                                    <title>I click "//input[@id="login-button"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617341981090' status='failed' stop='1617341991105'>
+                    <name>Then add product into the cart </name>
+                    <title>Then add product into the cart </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617341981090' status='failed' stop='1617341991105'>
+                            <name>Object: addToTheCart </name>
+                            <title>Object: addToTheCart </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617341981090' status='failed' stop='1617341991103'>
+                                    <name>I wait for visible "(//button[text()="ADD TO CART"])[1]", 10</name>
+                                    <title>I wait for visible "(//button[text()="ADD TO CART"])[1]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='e3f792d8-e2d2-4477-856a-358d0a6e210d-attachment.png' type='image/png' size='347644'/>
+            </attachments>
+            <failure>
+                <message>element ((//button[text()="ADD TO CART"])[1]) still not visible after 10 sec</message>
+                <stack-trace>Error: element ((//button[text()="ADD TO CART"])[1]) still not visible after 10 sec
+                    at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriverio\build\commands\browser\waitUntil.js:30:15
+                    at async Browser.wrapCommandFn (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\@wdio\utils\build\shim.js:74:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

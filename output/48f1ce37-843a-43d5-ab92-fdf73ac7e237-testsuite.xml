@@ -1,0 +1,490 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616661218263' stop='1616661239050'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616661228791' status='passed' stop='1616661239003'>
+            <name>practice Form @working</name>
+            <title>practice Form @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616661228809' status='passed' stop='1616661231575'>
+                    <name>Given navigate to Tools QA </name>
+                    <title>Given navigate to Tools QA </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616661228809' status='passed' stop='1616661231575'>
+                            <name>Object: navigateToToolsQA </name>
+                            <title>Object: navigateToToolsQA </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616661228809' status='passed' stop='1616661231575'>
+                                    <name>I am on page " https://demoqa.com/automation-practice-form"</name>
+                                    <title>I am on page " https://demoqa.com/automation-practice-form"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616661231575' status='passed' stop='1616661233327'>
+                    <name>Given fill the required details of form </name>
+                    <title>Given fill the required details of form </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616661231575' status='passed' stop='1616661232027'>
+                            <name>Object: dataFill </name>
+                            <title>Object: dataFill </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616661231575' status='passed' stop='1616661231615'>
+                                    <name>I wait for visible "//input[@id="firstName"]", 20</name>
+                                    <title>I wait for visible "//input[@id="firstName"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661231615' status='passed' stop='1616661231731'>
+                                    <name>I fill field "//input[@id="firstName"]", "shiryank"</name>
+                                    <title>I fill field "//input[@id="firstName"]", "shiryank"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661231731' status='passed' stop='1616661231758'>
+                                    <name>I wait for visible "//input[@id="lastName"]", 20</name>
+                                    <title>I wait for visible "//input[@id="lastName"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661231758' status='passed' stop='1616661231857'>
+                                    <name>I fill field "//input[@id="lastName"]", "bansal"</name>
+                                    <title>I fill field "//input[@id="lastName"]", "bansal"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661231857' status='passed' stop='1616661231888'>
+                                    <name>I wait for visible "//input[@id="userEmail"]", 20</name>
+                                    <title>I wait for visible "//input[@id="userEmail"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661231888' status='passed' stop='1616661232027'>
+                                    <name>I fill field "//input[@id="userEmail"]", "shiryank.bansal@successive.tech"</name>
+                                    <title>I fill field "//input[@id="userEmail"]", "shiryank.bansal@successive.tech"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616661232027' status='passed' stop='1616661232140'>
+                            <name>Object: checkGender </name>
+                            <title>Object: checkGender </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616661232027' status='passed' stop='1616661232059'>
+                                    <name>I wait for visible "//label[text()="Male"]", 20</name>
+                                    <title>I wait for visible "//label[text()="Male"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661232059' status='passed' stop='1616661232140'>
+                                    <name>I click "//label[text()="Male"]"</name>
+                                    <title>I click "//label[text()="Male"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616661232140' status='passed' stop='1616661232276'>
+                            <name>Object: dataFill </name>
+                            <title>Object: dataFill </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616661232140' status='passed' stop='1616661232169'>
+                                    <name>I wait for visible "//input[@id="userNumber"]", 20</name>
+                                    <title>I wait for visible "//input[@id="userNumber"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661232170' status='passed' stop='1616661232276'>
+                                    <name>I fill field "//input[@id="userNumber"]", "9773857933"</name>
+                                    <title>I fill field "//input[@id="userNumber"]", "9773857933"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616661232276' status='passed' stop='1616661232473'>
+                            <name>Object: clickField </name>
+                            <title>Object: clickField </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616661232276' status='passed' stop='1616661232308'>
+                                    <name>I wait for visible "//input[@id="dateOfBirthInput"]", 20</name>
+                                    <title>I wait for visible "//input[@id="dateOfBirthInput"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661232308' status='passed' stop='1616661232473'>
+                                    <name>I click "//input[@id="dateOfBirthInput"]"</name>
+                                    <title>I click "//input[@id="dateOfBirthInput"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616661232473' status='passed' stop='1616661232689'>
+                            <name>Object: checkDatesMonths </name>
+                            <title>Object: checkDatesMonths </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616661232473' status='passed' stop='1616661232503'>
+                                    <name>I wait for visible "//option[@value="2"]/..", 20</name>
+                                    <title>I wait for visible "//option[@value="2"]/..", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661232503' status='passed' stop='1616661232576'>
+                                    <name>I select option "//option[@value="2"]/..", "March"</name>
+                                    <title>I select option "//option[@value="2"]/..", "March"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661232576' status='passed' stop='1616661232605'>
+                                    <name>I wait for visible "//option[@value="1998"]/..", 20</name>
+                                    <title>I wait for visible "//option[@value="1998"]/..", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661232605' status='passed' stop='1616661232689'>
+                                    <name>I select option "//option[@value="1998"]/..", "1998"</name>
+                                    <title>I select option "//option[@value="1998"]/..", "1998"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616661232689' status='passed' stop='1616661232792'>
+                            <name>Object: checkDay </name>
+                            <title>Object: checkDay </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616661232689' status='passed' stop='1616661232713'>
+                                    <name>I wait for visible "//div[text()="24"]", 20</name>
+                                    <title>I wait for visible "//div[text()="24"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661232713' status='passed' stop='1616661232792'>
+                                    <name>I click "//div[text()="24"]"</name>
+                                    <title>I click "//div[text()="24"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616661232792' status='passed' stop='1616661232962'>
+                            <name>Object: dataFill </name>
+                            <title>Object: dataFill </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616661232792' status='passed' stop='1616661232815'>
+                                    <name>I wait for visible "//input[@id="subjectsInput"]", 20</name>
+                                    <title>I wait for visible "//input[@id="subjectsInput"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661232815' status='passed' stop='1616661232962'>
+                                    <name>I fill field "//input[@id="subjectsInput"]", "physics"</name>
+                                    <title>I fill field "//input[@id="subjectsInput"]", "physics"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616661232962' status='passed' stop='1616661232992'>
+                            <name>Object: fillTheRequiredDetailsOfForm </name>
+                            <title>Object: fillTheRequiredDetailsOfForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616661232962' status='passed' stop='1616661232992'>
+                                    <name>I press key "Enter"</name>
+                                    <title>I press key "Enter"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616661232992' status='passed' stop='1616661233053'>
+                            <name>Object: checkSports </name>
+                            <title>Object: checkSports </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616661232992' status='passed' stop='1616661233011'>
+                                    <name>I wait for visible "//label[text()="Male"]", 20</name>
+                                    <title>I wait for visible "//label[text()="Male"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233011' status='passed' stop='1616661233053'>
+                                    <name>I click "//label[text()="Male"]"</name>
+                                    <title>I click "//label[text()="Male"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616661233053' status='passed' stop='1616661233195'>
+                            <name>Object: addImage </name>
+                            <title>Object: addImage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616661233053' status='passed' stop='1616661233080'>
+                                    <name>I wait for visible "//input[@id="uploadPicture"]", 180</name>
+                                    <title>I wait for visible "//input[@id="uploadPicture"]", 180</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233080' status='passed' stop='1616661233195'>
+                                    <name>I attach file "//input[@id="uploadPicture"]", "./testData/images.png"</name>
+                                    <title>I attach file "//input[@id="uploadPicture"]", "./testData/images.png"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616661233195' status='passed' stop='1616661233327'>
+                            <name>Object: addAddress </name>
+                            <title>Object: addAddress </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616661233195' status='passed' stop='1616661233222'>
+                                    <name>I wait for visible "//textarea[@id="currentAddress"]", 20</name>
+                                    <title>I wait for visible "//textarea[@id="currentAddress"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233222' status='passed' stop='1616661233327'>
+                                    <name>I fill field "//textarea[@id="currentAddress"]", "Noida"</name>
+                                    <title>I fill field "//textarea[@id="currentAddress"]", "Noida"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616661233327' status='passed' stop='1616661233443'>
+                    <name>Given submit the form </name>
+                    <title>Given submit the form </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616661233327' status='passed' stop='1616661233443'>
+                            <name>Object: submitDetails </name>
+                            <title>Object: submitDetails </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616661233327' status='passed' stop='1616661233356'>
+                                    <name>I wait for visible "//button[@id="submit"]", 10</name>
+                                    <title>I wait for visible "//button[@id="submit"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233356' status='passed' stop='1616661233443'>
+                                    <name>I click "//button[@id="submit"]"</name>
+                                    <title>I click "//button[@id="submit"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616661233443' status='passed' stop='1616661239003'>
+                    <name>Then verify the details of filling form </name>
+                    <title>Then verify the details of filling form </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616661233443' status='passed' stop='1616661233497'>
+                            <name>Object: verifyHeadingItems </name>
+                            <title>Object: verifyHeadingItems </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616661233443' status='passed' stop='1616661233472'>
+                                    <name>I wait for visible "//div[text()="Thanks for submitting the form"]", 120</name>
+                                    <title>I wait for visible "//div[text()="Thanks for submitting the form"]", 120</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233472' status='passed' stop='1616661233496'>
+                                    <name>I see element "//div[text()="Thanks for submitting the form"]"</name>
+                                    <title>I see element "//div[text()="Thanks for submitting the form"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616661233497' status='passed' stop='1616661233614'>
+                            <name>Object: verifyItems </name>
+                            <title>Object: verifyItems </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616661233497' status='passed' stop='1616661233533'>
+                                    <name>I wait for visible "//th[text()="Label"]", 120</name>
+                                    <title>I wait for visible "//th[text()="Label"]", 120</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233533' status='passed' stop='1616661233563'>
+                                    <name>I see element "//th[text()="Label"]"</name>
+                                    <title>I see element "//th[text()="Label"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233563' status='passed' stop='1616661233594'>
+                                    <name>I wait for visible "//th[text()="Values"]", 120</name>
+                                    <title>I wait for visible "//th[text()="Values"]", 120</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233594' status='passed' stop='1616661233614'>
+                                    <name>I see element "//th[text()="Values"]"</name>
+                                    <title>I see element "//th[text()="Values"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616661233614' status='passed' stop='1616661233684'>
+                            <name>Object: verifySubmit </name>
+                            <title>Object: verifySubmit </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616661233614' status='passed' stop='1616661233640'>
+                                    <name>I wait for visible "//button[@id="closeLargeModal"]", 120</name>
+                                    <title>I wait for visible "//button[@id="closeLargeModal"]", 120</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233640' status='passed' stop='1616661233684'>
+                                    <name>I see element "//button[@id="closeLargeModal"]"</name>
+                                    <title>I see element "//button[@id="closeLargeModal"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616661233684' status='passed' stop='1616661233987'>
+                            <name>Object: verifyData </name>
+                            <title>Object: verifyData </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616661233684' status='passed' stop='1616661233710'>
+                                    <name>I wait for visible "//td[text()="shiryank bansal"]", 120</name>
+                                    <title>I wait for visible "//td[text()="shiryank bansal"]", 120</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233710' status='passed' stop='1616661233728'>
+                                    <name>I see element "//td[text()="shiryank bansal"]"</name>
+                                    <title>I see element "//td[text()="shiryank bansal"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233728' status='passed' stop='1616661233755'>
+                                    <name>I wait for visible "//td[text()="shiryank.bansal@successive.tech"]", 120</name>
+                                    <title>I wait for visible "//td[text()="shiryank.bansal@successive.tech"]", 120</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233756' status='passed' stop='1616661233776'>
+                                    <name>I see element "//td[text()="shiryank.bansal@successive.tech"]"</name>
+                                    <title>I see element "//td[text()="shiryank.bansal@successive.tech"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233776' status='passed' stop='1616661233800'>
+                                    <name>I wait for visible "//td[text()="9773857933"]", 120</name>
+                                    <title>I wait for visible "//td[text()="9773857933"]", 120</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233800' status='passed' stop='1616661233817'>
+                                    <name>I see element "//td[text()="9773857933"]"</name>
+                                    <title>I see element "//td[text()="9773857933"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233817' status='passed' stop='1616661233842'>
+                                    <name>I wait for visible "//td[text()="24 March,1998"]", 120</name>
+                                    <title>I wait for visible "//td[text()="24 March,1998"]", 120</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233842' status='passed' stop='1616661233859'>
+                                    <name>I see element "//td[text()="24 March,1998"]"</name>
+                                    <title>I see element "//td[text()="24 March,1998"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233859' status='passed' stop='1616661233883'>
+                                    <name>I wait for visible "//td[text()="Physics"]", 120</name>
+                                    <title>I wait for visible "//td[text()="Physics"]", 120</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233883' status='passed' stop='1616661233901'>
+                                    <name>I see element "//td[text()="Physics"]"</name>
+                                    <title>I see element "//td[text()="Physics"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233901' status='passed' stop='1616661233926'>
+                                    <name>I wait for visible "//td[text()="images.png"]", 120</name>
+                                    <title>I wait for visible "//td[text()="images.png"]", 120</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233926' status='passed' stop='1616661233945'>
+                                    <name>I see element "//td[text()="images.png"]"</name>
+                                    <title>I see element "//td[text()="images.png"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233945' status='passed' stop='1616661233968'>
+                                    <name>I wait for visible "//td[text()="Noida"]", 120</name>
+                                    <title>I wait for visible "//td[text()="Noida"]", 120</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616661233968' status='passed' stop='1616661233987'>
+                                    <name>I see element "//td[text()="Noida"]"</name>
+                                    <title>I see element "//td[text()="Noida"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616661233987' status='passed' stop='1616661239003'>
+                            <name>Object: verifyTheDetailsOfFillingForm </name>
+                            <title>Object: verifyTheDetailsOfFillingForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616661233987' status='passed' stop='1616661239002'>
+                                    <name>I wait 5</name>
+                                    <title>I wait 5</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

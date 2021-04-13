@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616665513268' stop='1616665532318'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616665525449' status='failed' stop='1616665531934'>
+            <name>find mobiles scenario @working</name>
+            <title>find mobiles scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616665525463' status='passed' stop='1616665527510'>
+                    <name>Given navigate to flipkartSignUp Page </name>
+                    <title>Given navigate to flipkartSignUp Page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616665525463' status='passed' stop='1616665527510'>
+                            <name>Object: navigateToFlipkartSignUpPage </name>
+                            <title>Object: navigateToFlipkartSignUpPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616665525463' status='passed' stop='1616665527510'>
+                                    <name>I am on page "https://www.flipkart.com/"</name>
+                                    <title>I am on page "https://www.flipkart.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616665527510' status='failed' stop='1616665531934'>
+                    <name>And enter the details </name>
+                    <title>And enter the details </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616665527510' status='failed' stop='1616665531934'>
+                            <name>Object: clickSearch </name>
+                            <title>Object: clickSearch </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616665527510' status='passed' stop='1616665527559'>
+                                    <name>I wait for visible "//input[@placeholder="Search for products, brands and more"]", 50</name>
+                                    <title>I wait for visible "//input[@placeholder="Search for products, brands and more"]", 50</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616665527559' status='failed' stop='1616665531933'>
+                                    <name>I click "//input[@placeholder="Search for products, brands and more"]"</name>
+                                    <title>I click "//input[@placeholder="Search for products, brands and more"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='fdf1f63b-c13c-4ad3-815e-6714bd7a32ac-attachment.png' type='image/png' size='108365'/>
+            </attachments>
+            <failure>
+                <message>element click intercepted: Element &lt;input type="text" value="" class="_3704LK" title="Search for products, brands and more" name="q" autocomplete="off" placeholder="Search for products, brands and more"> is not clickable at point (533, 28). Other element would receive the click: &lt;div class="_2hriZF _2rbIyg" tabindex="-1">...&lt;/div>
+                  (Session info: chrome=89.0.4389.90)</message>
+                <stack-trace>element click intercepted: element click intercepted: Element &lt;input type="text" value="" class="_3704LK" title="Search for products, brands and more" name="q" autocomplete="off" placeholder="Search for products, brands and more"> is not clickable at point (533, 28). Other element would receive the click: &lt;div class="_2hriZF _2rbIyg" tabindex="-1">...&lt;/div>
+                  (Session info: chrome=89.0.4389.90)
+                    at getErrorFromResponseBody (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriver\build\utils.js:121:10)
+                    at Request._callback (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriver\build\request.js:121:64)
+                    at Request.self.callback (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\request\request.js:185:22)
+                    at Request.emit (events.js:315:20)
+                    at Request.EventEmitter.emit (domain.js:467:12)
+                    at Request.&lt;anonymous> (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\request\request.js:1154:10)
+                    at Request.emit (events.js:315:20)
+                    at Request.EventEmitter.emit (domain.js:467:12)
+                    at IncomingMessage.&lt;anonymous> (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\request\request.js:1076:12)
+                    at Object.onceWrapper (events.js:421:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

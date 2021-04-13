@@ -1,0 +1,132 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617107535430' stop='1617107558366'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1617107535431' status='failed' stop='1617107558363'>
+            <name>Practise scenario</name>
+            <title>Practise scenario</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1617107535434' status='passed' stop='1617107535894'>
+                    <name>Given navigate to google </name>
+                    <title>Given navigate to google </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617107535434' status='passed' stop='1617107535894'>
+                            <name>Object: reachedToUrl </name>
+                            <title>Object: reachedToUrl </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617107535434' status='passed' stop='1617107535894'>
+                                    <name>I am on page </name>
+                                    <title>I am on page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617107535894' status='passed' stop='1617107537356'>
+                    <name>When search resreq to google </name>
+                    <title>When search resreq to google </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617107535894' status='passed' stop='1617107537356'>
+                            <name>Object: enterDataInGoogle </name>
+                            <title>Object: enterDataInGoogle </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617107535894' status='passed' stop='1617107535964'>
+                                    <name>I wait for visible "//input[@name="q"]", 20</name>
+                                    <title>I wait for visible "//input[@name="q"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617107535964' status='passed' stop='1617107536055'>
+                                    <name>I fill field "//input[@name="q"]", "resreq"</name>
+                                    <title>I fill field "//input[@name="q"]", "resreq"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617107536055' status='passed' stop='1617107537356'>
+                                    <name>I press key "Enter"</name>
+                                    <title>I press key "Enter"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617107537356' status='passed' stop='1617107538291'>
+                    <name>And click on the link of reqres.in from google </name>
+                    <title>And click on the link of reqres.in from google </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617107537356' status='passed' stop='1617107538291'>
+                            <name>Object: clickOnFirstLink </name>
+                            <title>Object: clickOnFirstLink </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617107537356' status='passed' stop='1617107537415'>
+                                    <name>I wait for visible "//a[@href="https://reqres.in/"]", 20</name>
+                                    <title>I wait for visible "//a[@href="https://reqres.in/"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617107537415' status='passed' stop='1617107538291'>
+                                    <name>I click "//a[@href="https://reqres.in/"]"</name>
+                                    <title>I click "//a[@href="https://reqres.in/"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617107538291' status='failed' stop='1617107558310'>
+                    <name>Then verify page should be visible of reqres.in </name>
+                    <title>Then verify page should be visible of reqres.in </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617107538291' status='failed' stop='1617107558310'>
+                            <name>Object: userOnResReqPage </name>
+                            <title>Object: userOnResReqPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617107538291' status='failed' stop='1617107558308'>
+                                    <name>I wait for visible "/html/body/div[1]", 20</name>
+                                    <title>I wait for visible "/html/body/div[1]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=89.0.4389.90)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=89.0.4389.90)
+                    at getErrorFromResponseBody (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriver\build\utils.js:121:10)
+                    at Request._callback (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriver\build\request.js:121:64)
+                    at Request.self.callback (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\request\request.js:185:22)
+                    at Request.emit (events.js:315:20)
+                    at Request.EventEmitter.emit (domain.js:467:12)
+                    at Request.&lt;anonymous> (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\request\request.js:1154:10)
+                    at Request.emit (events.js:315:20)
+                    at Request.EventEmitter.emit (domain.js:467:12)
+                    at IncomingMessage.&lt;anonymous> (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\request\request.js:1076:12)
+                    at Object.onceWrapper (events.js:421:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

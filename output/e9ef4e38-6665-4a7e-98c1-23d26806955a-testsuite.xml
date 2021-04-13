@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618231820000' stop='1618231857175'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1618231833165' status='passed' stop='1618231856984'>
+            <name>lenskart shop scenario @working</name>
+            <title>lenskart shop scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1618231833174' status='passed' stop='1618231856470'>
+                    <name>Given navigate to lenskart Page </name>
+                    <title>Given navigate to lenskart Page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1618231833174' status='passed' stop='1618231856470'>
+                            <name>Object: navigateToLenskartPage </name>
+                            <title>Object: navigateToLenskartPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1618231833174' status='passed' stop='1618231856469'>
+                                    <name>I am on page "https://www.lenskart.com/"</name>
+                                    <title>I am on page "https://www.lenskart.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1618231856470' status='passed' stop='1618231856984'>
+                    <name>Then select the product </name>
+                    <title>Then select the product </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1618231856470' status='passed' stop='1618231856684'>
+                            <name>Object: cursorMoving </name>
+                            <title>Object: cursorMoving </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1618231856470' status='passed' stop='1618231856539'>
+                                    <name>I wait for visible "//a[text()="Computer Glasses"]", 10</name>
+                                    <title>I wait for visible "//a[text()="Computer Glasses"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1618231856539' status='passed' stop='1618231856684'>
+                                    <name>I move cursor to "//a[text()="Computer Glasses"]", 1, 1</name>
+                                    <title>I move cursor to "//a[text()="Computer Glasses"]", 1, 1</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1618231856684' status='passed' stop='1618231856774'>
+                            <name>Object: selectGender </name>
+                            <title>Object: selectGender </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1618231856684' status='passed' stop='1618231856715'>
+                                    <name>I wait for visible "(//span[text()="men"])[2]", 10</name>
+                                    <title>I wait for visible "(//span[text()="men"])[2]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1618231856715' status='passed' stop='1618231856774'>
+                                    <name>I move cursor to "(//span[text()="men"])[2]"</name>
+                                    <title>I move cursor to "(//span[text()="men"])[2]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1618231856774' status='passed' stop='1618231856984'>
+                            <name>Object: selectPrice </name>
+                            <title>Object: selectPrice </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1618231856774' status='passed' stop='1618231856803'>
+                                    <name>I wait for visible "(//span[text()="Blu 0 Computer Glasses"])[1]", 10</name>
+                                    <title>I wait for visible "(//span[text()="Blu 0 Computer Glasses"])[1]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1618231856803' status='passed' stop='1618231856983'>
+                                    <name>I click "(//span[text()="Blu 0 Computer Glasses"])[1]"</name>
+                                    <title>I click "(//span[text()="Blu 0 Computer Glasses"])[1]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

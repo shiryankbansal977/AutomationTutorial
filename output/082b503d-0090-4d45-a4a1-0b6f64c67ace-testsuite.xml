@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616396118148' stop='1616396145888'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616396143429' status='failed' stop='1616396145570'>
+            <name>Signup scenario @working</name>
+            <title>Signup scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616396143435' status='failed' stop='1616396145570'>
+                    <name>Given navigate to signUp Page </name>
+                    <title>Given navigate to signUp Page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616396143435' status='failed' stop='1616396145570'>
+                            <name>Object: reachedToHomePage </name>
+                            <title>Object: reachedToHomePage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616396143435' status='passed' stop='1616396145569'>
+                                    <name>I am on page "http://www.facebook.com/"</name>
+                                    <title>I am on page "http://www.facebook.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='e14428ba-1693-4a25-91c4-4022f058bcb1-attachment.png' type='image/png' size='36823'/>
+            </attachments>
+            <failure>
+                <message>createAcc is not defined</message>
+                <stack-trace>ReferenceError: createAcc is not defined
+                    at Object.enterSignUpData (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\src\pages\signUpPage.js:25:9)
+                    at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\src\step_definitions\web\signUp_step.js:14:15
+                    at runSteps (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\interfaces\gherkin.js:48:15)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,127 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617196481236' stop='1617196531086'>
+    <name>Business rules @Sm1</name>
+    <title>Business rules @Sm1</title>
+    <test-cases>
+        <test-case start='1617196500253' status='failed' stop='1617196531080'>
+            <name>Demo scenario</name>
+            <title>Demo scenario</title>
+            <labels>
+                <label name='tag' value='@Sm1'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1617196500260' status='passed' stop='1617196507247'>
+                    <name>Given User is on google page </name>
+                    <title>Given User is on google page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617196500260' status='passed' stop='1617196507247'>
+                            <name>Object: navigateToUrl </name>
+                            <title>Object: navigateToUrl </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617196500260' status='passed' stop='1617196507247'>
+                                    <name>I am on page </name>
+                                    <title>I am on page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617196507247' status='passed' stop='1617196510999'>
+                    <name>When User search codeceptjs and click on first link </name>
+                    <title>When User search codeceptjs and click on first link </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617196507247' status='passed' stop='1617196510680'>
+                            <name>Object: enterTextInSearch </name>
+                            <title>Object: enterTextInSearch </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617196507247' status='passed' stop='1617196507281'>
+                                    <name>I wait for visible "//input[@name="q"]", 20</name>
+                                    <title>I wait for visible "//input[@name="q"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617196507281' status='passed' stop='1617196507396'>
+                                    <name>I fill field "//input[@name="q"]", "codeceptjs"</name>
+                                    <title>I fill field "//input[@name="q"]", "codeceptjs"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617196507396' status='passed' stop='1617196510680'>
+                                    <name>I press key "Enter"</name>
+                                    <title>I press key "Enter"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617196510680' status='passed' stop='1617196510999'>
+                            <name>Object: clickOnfirstLink </name>
+                            <title>Object: clickOnfirstLink </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617196510680' status='passed' stop='1617196510707'>
+                                    <name>I wait for visible "//h3[text()="CodeceptJS"]/..", 20</name>
+                                    <title>I wait for visible "//h3[text()="CodeceptJS"]/..", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617196510708' status='passed' stop='1617196510998'>
+                                    <name>I click "//h3[text()="CodeceptJS"]/.."</name>
+                                    <title>I click "//h3[text()="CodeceptJS"]/.."</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617196510999' status='failed' stop='1617196531013'>
+                    <name>Then User is navigated to codecept.io page </name>
+                    <title>Then User is navigated to codecept.io page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617196510999' status='failed' stop='1617196531013'>
+                            <name>Object: userOncodeceptjsPage </name>
+                            <title>Object: userOncodeceptjsPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617196510999' status='failed' stop='1617196531011'>
+                                    <name>I wait for visible "//span[text()="CodeceptJS"]/..", 20</name>
+                                    <title>I wait for visible "//span[text()="CodeceptJS"]/..", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=89.0.4389.90)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=89.0.4389.90)
+                    at getErrorFromResponseBody (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriver\build\utils.js:121:10)
+                    at Request._callback (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriver\build\request.js:121:64)
+                    at Request.self.callback (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\request\request.js:185:22)
+                    at Request.emit (events.js:315:20)
+                    at Request.EventEmitter.emit (domain.js:467:12)
+                    at Request.&lt;anonymous> (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\request\request.js:1154:10)
+                    at Request.emit (events.js:315:20)
+                    at Request.EventEmitter.emit (domain.js:467:12)
+                    at IncomingMessage.&lt;anonymous> (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\request\request.js:1076:12)
+                    at Object.onceWrapper (events.js:421:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

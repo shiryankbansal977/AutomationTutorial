@@ -1,0 +1,114 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616564576830' stop='1616564608353'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616564596644' status='failed' stop='1616564607542'>
+            <name>Window Handling @working</name>
+            <title>Window Handling @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616564596667' status='passed' stop='1616564602088'>
+                    <name>Given navigate to window page </name>
+                    <title>Given navigate to window page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616564596667' status='passed' stop='1616564602088'>
+                            <name>Object: navigateToWindowPage </name>
+                            <title>Object: navigateToWindowPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616564596667' status='passed' stop='1616564602087'>
+                                    <name>I am on page " https://www.air.irctc.co.in/"</name>
+                                    <title>I am on page " https://www.air.irctc.co.in/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616564602088' status='passed' stop='1616564602352'>
+                    <name>Then select a button hotel stay and switch to new tab </name>
+                    <title>Then select a button hotel stay and switch to new tab </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616564602088' status='passed' stop='1616564602352'>
+                            <name>Object: selectAButtonHotelStayAndSwitchToNewTab </name>
+                            <title>Object: selectAButtonHotelStayAndSwitchToNewTab </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616564602088' status='passed' stop='1616564602158'>
+                                    <name>I wait for visible "//a[@href="https://www.hotel.irctctourism.com/"]", 10</name>
+                                    <title>I wait for visible "//a[@href="https://www.hotel.irctctourism.com/"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616564602159' status='passed' stop='1616564602327'>
+                                    <name>I click "//a[@href="https://www.hotel.irctctourism.com/"]"</name>
+                                    <title>I click "//a[@href="https://www.hotel.irctctourism.com/"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616564602327' status='passed' stop='1616564602352'>
+                                    <name>I switch to next tab 1, 5</name>
+                                    <title>I switch to next tab 1, 5</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616564602352' status='failed' stop='1616564607541'>
+                    <name>Given fill the required parameters </name>
+                    <title>Given fill the required parameters </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616564602352' status='failed' stop='1616564607541'>
+                            <name>Object: enterCityName </name>
+                            <title>Object: enterCityName </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616564602352' status='passed' stop='1616564607064'>
+                                    <name>I wait for visible "//input[@placeholder="Enter hotel name or city name"]", 10</name>
+                                    <title>I wait for visible "//input[@placeholder="Enter hotel name or city name"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616564607064' status='failed' stop='1616564607533'>
+                                    <name>I fill field "//input[@placeholder="Enter hotel name or city name"]", "Mumbai"</name>
+                                    <title>I fill field "//input[@placeholder="Enter hotel name or city name"]", "Mumbai"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='ff713621-7992-48da-bc80-fbf3ec90f2e2-attachment.png' type='image/png' size='532279'/>
+            </attachments>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=89.0.4389.90)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=89.0.4389.90)
+                    at getErrorFromResponseBody (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriver\build\utils.js:121:10)
+                    at Request._callback (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriver\build\request.js:121:64)
+                    at Request.self.callback (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\request\request.js:185:22)
+                    at Request.emit (events.js:315:20)
+                    at Request.EventEmitter.emit (domain.js:467:12)
+                    at Request.&lt;anonymous> (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\request\request.js:1154:10)
+                    at Request.emit (events.js:315:20)
+                    at Request.EventEmitter.emit (domain.js:467:12)
+                    at IncomingMessage.&lt;anonymous> (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\request\request.js:1076:12)
+                    at Object.onceWrapper (events.js:421:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

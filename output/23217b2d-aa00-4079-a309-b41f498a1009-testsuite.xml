@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616480968720' stop='1616481031401'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616481015203' status='failed' stop='1616481031077'>
+            <name>Frame Handling @working</name>
+            <title>Frame Handling @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616481015211' status='passed' stop='1616481021045'>
+                    <name>Given navigate to frame page </name>
+                    <title>Given navigate to frame page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616481015211' status='passed' stop='1616481021045'>
+                            <name>Object: navigateToFramePage </name>
+                            <title>Object: navigateToFramePage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616481015212' status='passed' stop='1616481021044'>
+                                    <name>I am on page " http://demo.automationtesting.in/Frames.html"</name>
+                                    <title>I am on page " http://demo.automationtesting.in/Frames.html"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616481021045' status='failed' stop='1616481031076'>
+                    <name>Given enter text in single frame </name>
+                    <title>Given enter text in single frame </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616481021045' status='failed' stop='1616481031076'>
+                            <name>Object: enterTextInSingleFrame </name>
+                            <title>Object: enterTextInSingleFrame </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616481021045' status='failed' stop='1616481031075'>
+                                    <name>I wait for visible "((//input[@type="text"])[1])", 10</name>
+                                    <title>I wait for visible "((//input[@type="text"])[1])", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='90170568-f623-4f19-8764-15bb2e2b67f1-attachment.png' type='image/png' size='23106'/>
+            </attachments>
+            <failure>
+                <message>element (((//input[@type="text"])[1])) still not visible after 10 sec</message>
+                <stack-trace>Error: element (((//input[@type="text"])[1])) still not visible after 10 sec
+                    at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriverio\build\commands\browser\waitUntil.js:30:15
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Browser.wrapCommandFn (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\@wdio\utils\build\shim.js:74:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

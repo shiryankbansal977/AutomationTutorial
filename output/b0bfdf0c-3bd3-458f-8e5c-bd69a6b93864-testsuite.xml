@@ -1,0 +1,135 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617080886749' stop='1617080916448'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1617080901244' status='failed' stop='1617080916078'>
+            <name>find mobiles scenario @working</name>
+            <title>find mobiles scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1617080901253' status='passed' stop='1617080903595'>
+                    <name>Given navigate to flipkartSignUp Page </name>
+                    <title>Given navigate to flipkartSignUp Page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617080901253' status='passed' stop='1617080903595'>
+                            <name>Object: navigateToFlipkartSignUpPage </name>
+                            <title>Object: navigateToFlipkartSignUpPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617080901253' status='passed' stop='1617080903595'>
+                                    <name>I am on page "https://www.flipkart.com/"</name>
+                                    <title>I am on page "https://www.flipkart.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617080903595' status='passed' stop='1617080906060'>
+                    <name>And enter the details </name>
+                    <title>And enter the details </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617080903595' status='passed' stop='1617080903734'>
+                            <name>Object: cutLoginPage </name>
+                            <title>Object: cutLoginPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617080903595' status='passed' stop='1617080903638'>
+                                    <name>I wait for visible "//button[text()="✕"]", 10</name>
+                                    <title>I wait for visible "//button[text()="✕"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617080903638' status='passed' stop='1617080903733'>
+                                    <name>I click "//button[text()="✕"]"</name>
+                                    <title>I click "//button[text()="✕"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617080903734' status='passed' stop='1617080906060'>
+                            <name>Object: clickSearch </name>
+                            <title>Object: clickSearch </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617080903734' status='passed' stop='1617080903763'>
+                                    <name>I wait for visible "//input[@placeholder="Search for products, brands and more"]", 50</name>
+                                    <title>I wait for visible "//input[@placeholder="Search for products, brands and more"]", 50</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617080903763' status='passed' stop='1617080903845'>
+                                    <name>I click "//input[@placeholder="Search for products, brands and more"]"</name>
+                                    <title>I click "//input[@placeholder="Search for products, brands and more"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617080903846' status='passed' stop='1617080903870'>
+                                    <name>I wait for visible "//input[@placeholder="Search for products, brands and more"]", 20</name>
+                                    <title>I wait for visible "//input[@placeholder="Search for products, brands and more"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617080903870' status='passed' stop='1617080904002'>
+                                    <name>I fill field "//input[@placeholder="Search for products, brands and more"]", "mobiles"</name>
+                                    <title>I fill field "//input[@placeholder="Search for products, brands and more"]", "mobiles"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617080904002' status='passed' stop='1617080904046'>
+                                    <name>I press key "Enter"</name>
+                                    <title>I press key "Enter"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617080904046' status='passed' stop='1617080906060'>
+                                    <name>I wait 2</name>
+                                    <title>I wait 2</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617080906060' status='failed' stop='1617080916077'>
+                    <name>Then print the value </name>
+                    <title>Then print the value </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617080906060' status='failed' stop='1617080916077'>
+                            <name>Object: printTheValue </name>
+                            <title>Object: printTheValue </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617080906060' status='failed' stop='1617080916074'>
+                                    <name>I wait for visible "(//div[text()="₹6,999"])[1]", 10</name>
+                                    <title>I wait for visible "(//div[text()="₹6,999"])[1]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='5b5f7d8c-c90f-44ce-bd92-441279c663a9-attachment.png' type='image/png' size='173673'/>
+            </attachments>
+            <failure>
+                <message>element ((//div[text()="₹6,999"])[1]) still not visible after 10 sec</message>
+                <stack-trace>Error: element ((//div[text()="₹6,999"])[1]) still not visible after 10 sec
+                    at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriverio\build\commands\browser\waitUntil.js:30:15
+                    at async Browser.wrapCommandFn (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\@wdio\utils\build\shim.js:74:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616392832401' stop='1616392853156'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616392851077' status='failed' stop='1616392852791'>
+            <name>Signup scenario @working</name>
+            <title>Signup scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616392851085' status='passed' stop='1616392852757'>
+                    <name>Given navigate to signUp Page </name>
+                    <title>Given navigate to signUp Page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616392851086' status='passed' stop='1616392852757'>
+                            <name>Object: reachedToHomePage </name>
+                            <title>Object: reachedToHomePage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616392851086' status='passed' stop='1616392852757'>
+                                    <name>I am on page "http://www.facebook.com/"</name>
+                                    <title>I am on page "http://www.facebook.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616392852757' status='failed' stop='1616392852791'>
+                    <name>Given fill the form </name>
+                    <title>Given fill the form </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616392852757' status='failed' stop='1616392852791'>
+                            <name>Object: enterSignUpData </name>
+                            <title>Object: enterSignUpData </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616392852757' status='failed' stop='1616392852790'>
+                                    <name>I press key "Create New Account"</name>
+                                    <title>I press key "Create New Account"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='1ad179ee-ca7c-43d2-8b31-51f3b9ba8c46-attachment.png' type='image/png' size='88228'/>
+            </attachments>
+            <failure>
+                <message>invalid argument
+                from invalid argument: 'value' must be a single Unicode code point
+                  (Session info: chrome=89.0.4389.90)</message>
+                <stack-trace>invalid argument: invalid argument
+                from invalid argument: 'value' must be a single Unicode code point
+                  (Session info: chrome=89.0.4389.90)
+                    at getErrorFromResponseBody (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriver\build\utils.js:121:10)
+                    at Request._callback (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriver\build\request.js:121:64)
+                    at Request.self.callback (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\request\request.js:185:22)
+                    at Request.emit (events.js:315:20)
+                    at Request.EventEmitter.emit (domain.js:467:12)
+                    at Request.&lt;anonymous> (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\request\request.js:1154:10)
+                    at Request.emit (events.js:315:20)
+                    at Request.EventEmitter.emit (domain.js:467:12)
+                    at IncomingMessage.&lt;anonymous> (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\request\request.js:1076:12)
+                    at Object.onceWrapper (events.js:421:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

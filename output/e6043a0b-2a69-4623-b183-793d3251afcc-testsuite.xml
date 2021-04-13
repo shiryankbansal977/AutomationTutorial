@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616501102424' stop='1616501135027'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616501128226' status='failed' stop='1616501131372'>
+            <name>Window Handling @working</name>
+            <title>Window Handling @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616501128235' status='passed' stop='1616501131194'>
+                    <name>Given navigate to window page </name>
+                    <title>Given navigate to window page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616501128235' status='passed' stop='1616501131194'>
+                            <name>Object: navigateToWindowPage </name>
+                            <title>Object: navigateToWindowPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616501128235' status='passed' stop='1616501131194'>
+                                    <name>I am on page " https://www.air.irctc.co.in/"</name>
+                                    <title>I am on page " https://www.air.irctc.co.in/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616501131194' status='failed' stop='1616501131372'>
+                    <name>Then select a button hotel stay and switch to new tab </name>
+                    <title>Then select a button hotel stay and switch to new tab </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616501131194' status='failed' stop='1616501131372'>
+                            <name>Object: selectAButtonHotelStayAndSwitchToNewTab </name>
+                            <title>Object: selectAButtonHotelStayAndSwitchToNewTab </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616501131194' status='passed' stop='1616501131240'>
+                                    <name>I wait for visible "//a[@href="https://www.hotel.irctctourism.com/"]", 5</name>
+                                    <title>I wait for visible "//a[@href="https://www.hotel.irctctourism.com/"]", 5</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616501131240' status='passed' stop='1616501131351'>
+                                    <name>I click "//a[@href="https://www.hotel.irctctourism.com/"]"</name>
+                                    <title>I click "//a[@href="https://www.hotel.irctctourism.com/"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616501131351' status='passed' stop='1616501131371'>
+                                    <name>I switch to next tab 1, 1</name>
+                                    <title>I switch to next tab 1, 1</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='47636673-1523-4412-aa91-9feb58024942-attachment.png' type='image/png' size='831158'/>
+            </attachments>
+            <failure>
+                <message>Mumbai is not defined</message>
+                <stack-trace>ReferenceError: Mumbai is not defined
+                    at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\src\step_definitions\web\windowSteps.js:17:36
+                    at runSteps (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\interfaces\gherkin.js:48:15)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

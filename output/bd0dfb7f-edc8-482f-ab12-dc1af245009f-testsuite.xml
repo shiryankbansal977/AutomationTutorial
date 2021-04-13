@@ -1,0 +1,254 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616584815603' stop='1616584916629'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616584905232' status='failed' stop='1616584916238'>
+            <name>practice Form @working</name>
+            <title>practice Form @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616584905249' status='passed' stop='1616584914821'>
+                    <name>Given navigate to Tools QA </name>
+                    <title>Given navigate to Tools QA </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616584905249' status='passed' stop='1616584914821'>
+                            <name>Object: navigateToToolsQA </name>
+                            <title>Object: navigateToToolsQA </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616584905249' status='passed' stop='1616584914820'>
+                                    <name>I am on page " https://demoqa.com/automation-practice-form"</name>
+                                    <title>I am on page " https://demoqa.com/automation-practice-form"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616584914821' status='failed' stop='1616584916238'>
+                    <name>Given fill the required details of form </name>
+                    <title>Given fill the required details of form </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616584914821' status='passed' stop='1616584915259'>
+                            <name>Object: dataFill </name>
+                            <title>Object: dataFill </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616584914821' status='passed' stop='1616584914872'>
+                                    <name>I wait for visible "//input[@id="firstName"]", 20</name>
+                                    <title>I wait for visible "//input[@id="firstName"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616584914872' status='passed' stop='1616584914986'>
+                                    <name>I fill field "//input[@id="firstName"]", "shiryank"</name>
+                                    <title>I fill field "//input[@id="firstName"]", "shiryank"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616584914986' status='passed' stop='1616584915013'>
+                                    <name>I wait for visible "//input[@id="lastName"]", 20</name>
+                                    <title>I wait for visible "//input[@id="lastName"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616584915013' status='passed' stop='1616584915110'>
+                                    <name>I fill field "//input[@id="lastName"]", "bansal"</name>
+                                    <title>I fill field "//input[@id="lastName"]", "bansal"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616584915110' status='passed' stop='1616584915137'>
+                                    <name>I wait for visible "//input[@id="userEmail"]", 20</name>
+                                    <title>I wait for visible "//input[@id="userEmail"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616584915137' status='passed' stop='1616584915259'>
+                                    <name>I fill field "//input[@id="userEmail"]", "shiryank.bansal@successive.tech"</name>
+                                    <title>I fill field "//input[@id="userEmail"]", "shiryank.bansal@successive.tech"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616584915259' status='passed' stop='1616584915355'>
+                            <name>Object: fillTheRequiredDetailsOfForm </name>
+                            <title>Object: fillTheRequiredDetailsOfForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616584915259' status='passed' stop='1616584915287'>
+                                    <name>I wait for visible "//label[text()="Male"]", 20</name>
+                                    <title>I wait for visible "//label[text()="Male"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616584915287' status='passed' stop='1616584915355'>
+                                    <name>I click "//label[text()="Male"]"</name>
+                                    <title>I click "//label[text()="Male"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616584915355' status='passed' stop='1616584915478'>
+                            <name>Object: dataFill </name>
+                            <title>Object: dataFill </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616584915355' status='passed' stop='1616584915380'>
+                                    <name>I wait for visible "//input[@id="userNumber"]", 20</name>
+                                    <title>I wait for visible "//input[@id="userNumber"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616584915380' status='passed' stop='1616584915478'>
+                                    <name>I fill field "//input[@id="userNumber"]", "9773857933"</name>
+                                    <title>I fill field "//input[@id="userNumber"]", "9773857933"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616584915478' status='passed' stop='1616584915660'>
+                            <name>Object: clickField </name>
+                            <title>Object: clickField </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616584915478' status='passed' stop='1616584915509'>
+                                    <name>I wait for visible "//input[@id="dateOfBirthInput"]", 20</name>
+                                    <title>I wait for visible "//input[@id="dateOfBirthInput"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616584915509' status='passed' stop='1616584915660'>
+                                    <name>I click "//input[@id="dateOfBirthInput"]"</name>
+                                    <title>I click "//input[@id="dateOfBirthInput"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616584915660' status='passed' stop='1616584915959'>
+                            <name>Object: fillTheRequiredDetailsOfForm </name>
+                            <title>Object: fillTheRequiredDetailsOfForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616584915660' status='passed' stop='1616584915691'>
+                                    <name>I wait for visible "//option[@value="2"]/..", 20</name>
+                                    <title>I wait for visible "//option[@value="2"]/..", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616584915691' status='passed' stop='1616584915760'>
+                                    <name>I select option "//option[@value="2"]/..", "March"</name>
+                                    <title>I select option "//option[@value="2"]/..", "March"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616584915761' status='passed' stop='1616584915785'>
+                                    <name>I wait for visible "//option[@value="1998"]/..", 20</name>
+                                    <title>I wait for visible "//option[@value="1998"]/..", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616584915785' status='passed' stop='1616584915860'>
+                                    <name>I select option "//option[@value="1998"]/..", "1998"</name>
+                                    <title>I select option "//option[@value="1998"]/..", "1998"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616584915860' status='passed' stop='1616584915884'>
+                                    <name>I wait for visible "//div[text()="24"]", 20</name>
+                                    <title>I wait for visible "//div[text()="24"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616584915884' status='passed' stop='1616584915959'>
+                                    <name>I click "//div[text()="24"]"</name>
+                                    <title>I click "//div[text()="24"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616584915959' status='passed' stop='1616584916109'>
+                            <name>Object: dataFill </name>
+                            <title>Object: dataFill </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616584915959' status='passed' stop='1616584915982'>
+                                    <name>I wait for visible "//input[@id="subjectsInput"]", 20</name>
+                                    <title>I wait for visible "//input[@id="subjectsInput"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616584915982' status='passed' stop='1616584916109'>
+                                    <name>I fill field "//input[@id="subjectsInput"]", "physics"</name>
+                                    <title>I fill field "//input[@id="subjectsInput"]", "physics"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616584916109' status='failed' stop='1616584916238'>
+                            <name>Object: fillTheRequiredDetailsOfForm </name>
+                            <title>Object: fillTheRequiredDetailsOfForm </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616584916109' status='passed' stop='1616584916130'>
+                                    <name>I press key "Enter"</name>
+                                    <title>I press key "Enter"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616584916130' status='passed' stop='1616584916154'>
+                                    <name>I wait for visible "//label[text()="Sports"]", 20</name>
+                                    <title>I wait for visible "//label[text()="Sports"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616584916154' status='passed' stop='1616584916211'>
+                                    <name>I click "//label[text()="Sports"]"</name>
+                                    <title>I click "//label[text()="Sports"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616584916212' status='passed' stop='1616584916235'>
+                                    <name>I wait for visible "//input[@id="uploadPicture"]", 180</name>
+                                    <title>I wait for visible "//input[@id="uploadPicture"]", 180</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616584916235' status='failed' stop='1616584916236'>
+                                    <name>I attach file "//input[@id="uploadPicture"]", "C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\testData\images.png"</name>
+                                    <title>I attach file "//input[@id="uploadPicture"]", "C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\testData\images.png"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='ff70c926-45db-476c-a28f-1ee4524024ce-attachment.png' type='image/png' size='141517'/>
+            </attachments>
+            <failure>
+                <message>File at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\testData\images.png can not be found on local system</message>
+                <stack-trace>Error: File at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\testData\images.png can not be found on local system
+                    at WebDriver.attachFile (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\helper\WebDriver.js:1019:13)
+                    at Step.run (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\step.js:70:47)
+                    at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\actor.js:92:23
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

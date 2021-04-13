@@ -1,0 +1,115 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617103986892' stop='1617104004358'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1617103998621' status='passed' stop='1617104004333'>
+            <name>sauce Demo Scenario @working</name>
+            <title>sauce Demo Scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1617103998628' status='passed' stop='1617103998913'>
+                    <name>Given navigate to sauceDemo Page </name>
+                    <title>Given navigate to sauceDemo Page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617103998629' status='passed' stop='1617103998913'>
+                            <name>Object: navigateToSauceDemoPage </name>
+                            <title>Object: navigateToSauceDemoPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617103998629' status='passed' stop='1617103998913'>
+                                    <name>I am on page " https://www.saucedemo.com/"</name>
+                                    <title>I am on page " https://www.saucedemo.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617103998913' status='passed' stop='1617104004332'>
+                    <name>And enter the username and pw </name>
+                    <title>And enter the username and pw </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617103998913' status='passed' stop='1617103999061'>
+                            <name>Object: enterUserName </name>
+                            <title>Object: enterUserName </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617103998913' status='passed' stop='1617103998950'>
+                                    <name>I wait for visible "//input[@name="user-name"]", 40</name>
+                                    <title>I wait for visible "//input[@name="user-name"]", 40</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617103998950' status='passed' stop='1617103999061'>
+                                    <name>I fill field "//input[@name="user-name"]", "standard_user"</name>
+                                    <title>I fill field "//input[@name="user-name"]", "standard_user"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617103999061' status='passed' stop='1617103999191'>
+                            <name>Object: enterPassword </name>
+                            <title>Object: enterPassword </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617103999061' status='passed' stop='1617103999090'>
+                                    <name>I wait for visible "//input[@id="password"]", 10</name>
+                                    <title>I wait for visible "//input[@id="password"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617103999090' status='passed' stop='1617103999191'>
+                                    <name>I fill field "//input[@id="password"]", "secret_sauce"</name>
+                                    <title>I fill field "//input[@id="password"]", "secret_sauce"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617103999191' status='passed' stop='1617103999329'>
+                            <name>Object: clickLogin </name>
+                            <title>Object: clickLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617103999191' status='passed' stop='1617103999216'>
+                                    <name>I wait for visible "//input[@id="login-button"]", 10</name>
+                                    <title>I wait for visible "//input[@id="login-button"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617103999216' status='passed' stop='1617103999329'>
+                                    <name>I click "//input[@id="login-button"]"</name>
+                                    <title>I click "//input[@id="login-button"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617103999329' status='passed' stop='1617104004332'>
+                            <name>Object: enterTheUsernameAndPw </name>
+                            <title>Object: enterTheUsernameAndPw </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617103999329' status='passed' stop='1617104004332'>
+                                    <name>I wait 5</name>
+                                    <title>I wait 5</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

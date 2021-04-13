@@ -1,0 +1,368 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616507512873' stop='1616507601562'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616507532994' status='failed' stop='1616507601034'>
+            <name>Window Handling @working</name>
+            <title>Window Handling @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616507533012' status='passed' stop='1616507535361'>
+                    <name>Given navigate to window page </name>
+                    <title>Given navigate to window page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616507533012' status='passed' stop='1616507535361'>
+                            <name>Object: navigateToWindowPage </name>
+                            <title>Object: navigateToWindowPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616507533012' status='passed' stop='1616507535361'>
+                                    <name>I am on page " https://www.air.irctc.co.in/"</name>
+                                    <title>I am on page " https://www.air.irctc.co.in/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616507535361' status='passed' stop='1616507535532'>
+                    <name>Then select a button hotel stay and switch to new tab </name>
+                    <title>Then select a button hotel stay and switch to new tab </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616507535361' status='passed' stop='1616507535532'>
+                            <name>Object: selectAButtonHotelStayAndSwitchToNewTab </name>
+                            <title>Object: selectAButtonHotelStayAndSwitchToNewTab </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616507535361' status='passed' stop='1616507535402'>
+                                    <name>I wait for visible "//a[@href="https://www.hotel.irctctourism.com/"]", 5</name>
+                                    <title>I wait for visible "//a[@href="https://www.hotel.irctctourism.com/"]", 5</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507535402' status='passed' stop='1616507535512'>
+                                    <name>I click "//a[@href="https://www.hotel.irctctourism.com/"]"</name>
+                                    <title>I click "//a[@href="https://www.hotel.irctctourism.com/"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507535512' status='passed' stop='1616507535532'>
+                                    <name>I switch to next tab 1, 1</name>
+                                    <title>I switch to next tab 1, 1</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616507535532' status='passed' stop='1616507540978'>
+                    <name>Given fill the required parameters </name>
+                    <title>Given fill the required parameters </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616507535532' status='passed' stop='1616507538259'>
+                            <name>Object: enterCityName </name>
+                            <title>Object: enterCityName </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616507535532' status='passed' stop='1616507537537'>
+                                    <name>I wait for visible "//input[@placeholder="Enter hotel name or city name"]", 10</name>
+                                    <title>I wait for visible "//input[@placeholder="Enter hotel name or city name"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507537537' status='passed' stop='1616507537658'>
+                                    <name>I fill field "//input[@placeholder="Enter hotel name or city name"]", "Mumbai"</name>
+                                    <title>I fill field "//input[@placeholder="Enter hotel name or city name"]", "Mumbai"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507537659' status='passed' stop='1616507538198'>
+                                    <name>I wait for visible "//strong", 10</name>
+                                    <title>I wait for visible "//strong", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507538199' status='passed' stop='1616507538259'>
+                                    <name>I click "//strong"</name>
+                                    <title>I click "//strong"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616507538259' status='passed' stop='1616507539373'>
+                            <name>Object: enterCheckInDate </name>
+                            <title>Object: enterCheckInDate </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616507538259' status='passed' stop='1616507538290'>
+                                    <name>I wait for visible "//input[@placeholder="Check-in Date"]", 10</name>
+                                    <title>I wait for visible "//input[@placeholder="Check-in Date"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507538290' status='passed' stop='1616507538413'>
+                                    <name>I click "//input[@placeholder="Check-in Date"]"</name>
+                                    <title>I click "//input[@placeholder="Check-in Date"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507538413' status='passed' stop='1616507538962'>
+                                    <name>I wait for visible "((//span[@tabindex="-1"])[2])", 10</name>
+                                    <title>I wait for visible "((//span[@tabindex="-1"])[2])", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507538962' status='passed' stop='1616507539063'>
+                                    <name>I click "((//span[@tabindex="-1"])[2])"</name>
+                                    <title>I click "((//span[@tabindex="-1"])[2])"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507539063' status='passed' stop='1616507539093'>
+                                    <name>I wait for visible "//span[text()="2021"]", 10</name>
+                                    <title>I wait for visible "//span[text()="2021"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507539093' status='passed' stop='1616507539167'>
+                                    <name>I click "//span[text()="2021"]"</name>
+                                    <title>I click "//span[text()="2021"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507539167' status='passed' stop='1616507539192'>
+                                    <name>I wait for visible "//span[text()="Mar"]", 10</name>
+                                    <title>I wait for visible "//span[text()="Mar"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507539192' status='passed' stop='1616507539275'>
+                                    <name>I click "//span[text()="Mar"]"</name>
+                                    <title>I click "//span[text()="Mar"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507539276' status='passed' stop='1616507539301'>
+                                    <name>I wait for visible "//span[text()="26"]", 10</name>
+                                    <title>I wait for visible "//span[text()="26"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507539301' status='passed' stop='1616507539372'>
+                                    <name>I click "//span[text()="26"]"</name>
+                                    <title>I click "//span[text()="26"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616507539373' status='passed' stop='1616507540430'>
+                            <name>Object: enterOutDate </name>
+                            <title>Object: enterOutDate </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616507539373' status='passed' stop='1616507539408'>
+                                    <name>I wait for visible "//input[@placeholder="Check-out Date"]", 10</name>
+                                    <title>I wait for visible "//input[@placeholder="Check-out Date"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507539408' status='passed' stop='1616507539517'>
+                                    <name>I click "//input[@placeholder="Check-out Date"]"</name>
+                                    <title>I click "//input[@placeholder="Check-out Date"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507539517' status='passed' stop='1616507540060'>
+                                    <name>I wait for visible "((//span[@tabindex="-1"])[2])", 10</name>
+                                    <title>I wait for visible "((//span[@tabindex="-1"])[2])", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507540060' status='passed' stop='1616507540141'>
+                                    <name>I click "((//span[@tabindex="-1"])[2])"</name>
+                                    <title>I click "((//span[@tabindex="-1"])[2])"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507540141' status='passed' stop='1616507540163'>
+                                    <name>I wait for visible "//span[text()="2021"]", 10</name>
+                                    <title>I wait for visible "//span[text()="2021"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507540163' status='passed' stop='1616507540228'>
+                                    <name>I click "//span[text()="2021"]"</name>
+                                    <title>I click "//span[text()="2021"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507540228' status='passed' stop='1616507540248'>
+                                    <name>I wait for visible "//span[text()="Mar"]", 10</name>
+                                    <title>I wait for visible "//span[text()="Mar"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507540248' status='passed' stop='1616507540337'>
+                                    <name>I click "//span[text()="Mar"]"</name>
+                                    <title>I click "//span[text()="Mar"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507540337' status='passed' stop='1616507540357'>
+                                    <name>I wait for visible "//span[text()="26"]", 10</name>
+                                    <title>I wait for visible "//span[text()="26"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507540357' status='passed' stop='1616507540429'>
+                                    <name>I click "//span[text()="26"]"</name>
+                                    <title>I click "//span[text()="26"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616507540430' status='passed' stop='1616507540795'>
+                            <name>Object: enterRoomsDetails </name>
+                            <title>Object: enterRoomsDetails </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616507540430' status='passed' stop='1616507540459'>
+                                    <name>I wait for visible "//input[@id="user-data-wrapper-id"]", 10</name>
+                                    <title>I wait for visible "//input[@id="user-data-wrapper-id"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507540459' status='passed' stop='1616507540541'>
+                                    <name>I click "//input[@id="user-data-wrapper-id"]"</name>
+                                    <title>I click "//input[@id="user-data-wrapper-id"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507540541' status='passed' stop='1616507540570'>
+                                    <name>I wait for visible "//select[@name="hotelRoom"]", 10</name>
+                                    <title>I wait for visible "//select[@name="hotelRoom"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507540570' status='passed' stop='1616507540648'>
+                                    <name>I select option "//select[@name="hotelRoom"]", "2"</name>
+                                    <title>I select option "//select[@name="hotelRoom"]", "2"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507540648' status='passed' stop='1616507540675'>
+                                    <name>I wait for visible "//select[@name="hotelAdult"]", 10</name>
+                                    <title>I wait for visible "//select[@name="hotelAdult"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507540675' status='passed' stop='1616507540721'>
+                                    <name>I select option "//select[@name="hotelRoom"]", "2"</name>
+                                    <title>I select option "//select[@name="hotelRoom"]", "2"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507540721' status='passed' stop='1616507540747'>
+                                    <name>I wait for visible "//select[@name="hotelChild"]", 10</name>
+                                    <title>I wait for visible "//select[@name="hotelChild"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507540747' status='passed' stop='1616507540795'>
+                                    <name>I select option "//select[@name="hotelRoom"]", "2"</name>
+                                    <title>I select option "//select[@name="hotelRoom"]", "2"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616507540795' status='passed' stop='1616507540978'>
+                            <name>Object: fillTheRequiredParameters </name>
+                            <title>Object: fillTheRequiredParameters </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616507540795' status='passed' stop='1616507540820'>
+                                    <name>I wait for visible "(//button[@type="button"])[2]", 10</name>
+                                    <title>I wait for visible "(//button[@type="button"])[2]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507540820' status='passed' stop='1616507540877'>
+                                    <name>I click "(//button[@type="button"])[2]"</name>
+                                    <title>I click "(//button[@type="button"])[2]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507540877' status='passed' stop='1616507540900'>
+                                    <name>I wait for visible "//button[text()="Find Hotel"]", 10</name>
+                                    <title>I wait for visible "//button[text()="Find Hotel"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507540900' status='passed' stop='1616507540978'>
+                                    <name>I click "//button[text()="Find Hotel"]"</name>
+                                    <title>I click "//button[text()="Find Hotel"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616507540978' status='failed' stop='1616507601034'>
+                    <name>Given verify the details </name>
+                    <title>Given verify the details </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616507540978' status='failed' stop='1616507601034'>
+                            <name>Object: verifyTheDetails </name>
+                            <title>Object: verifyTheDetails </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616507540978' status='passed' stop='1616507541006'>
+                                    <name>I wait for visible "//b[text()="Hotel Type"]", 60</name>
+                                    <title>I wait for visible "//b[text()="Hotel Type"]", 60</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507541006' status='passed' stop='1616507541025'>
+                                    <name>I see element "//b[text()="Hotel Type"]"</name>
+                                    <title>I see element "//b[text()="Hotel Type"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616507541025' status='failed' stop='1616507601033'>
+                                    <name>I wait for visible "//strong[text()="44 Hotels"]", 60</name>
+                                    <title>I wait for visible "//strong[text()="44 Hotels"]", 60</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='025b5728-f1ea-417e-b25c-d80b304fa3c0-attachment.png' type='image/png' size='288949'/>
+            </attachments>
+            <failure>
+                <message>element (//strong[text()="44 Hotels"]) still not visible after 60 sec</message>
+                <stack-trace>Error: element (//strong[text()="44 Hotels"]) still not visible after 60 sec
+                    at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriverio\build\commands\browser\waitUntil.js:30:15
+                    at async Browser.wrapCommandFn (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\@wdio\utils\build\shim.js:74:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

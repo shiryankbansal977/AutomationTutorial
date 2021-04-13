@@ -1,0 +1,115 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617107497204' stop='1617107516007'>
+    <name>Business rules @Sm1</name>
+    <title>Business rules @Sm1</title>
+    <test-cases>
+        <test-case start='1617107509048' status='passed' stop='1617107515981'>
+            <name>Demo scenario</name>
+            <title>Demo scenario</title>
+            <labels>
+                <label name='tag' value='@Sm1'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1617107509054' status='passed' stop='1617107509825'>
+                    <name>Given User is on google page </name>
+                    <title>Given User is on google page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617107509054' status='passed' stop='1617107509825'>
+                            <name>Object: navigateToUrl </name>
+                            <title>Object: navigateToUrl </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617107509054' status='passed' stop='1617107509825'>
+                                    <name>I am on page </name>
+                                    <title>I am on page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617107509825' status='passed' stop='1617107515929'>
+                    <name>When User search codeceptjs and click on first link </name>
+                    <title>When User search codeceptjs and click on first link </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617107509825' status='passed' stop='1617107511455'>
+                            <name>Object: enterTextInSearch </name>
+                            <title>Object: enterTextInSearch </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617107509825' status='passed' stop='1617107509858'>
+                                    <name>I wait for visible "//input[@name="q"]", 20</name>
+                                    <title>I wait for visible "//input[@name="q"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617107509858' status='passed' stop='1617107509964'>
+                                    <name>I fill field "//input[@name="q"]", "codeceptjs"</name>
+                                    <title>I fill field "//input[@name="q"]", "codeceptjs"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617107509964' status='passed' stop='1617107511455'>
+                                    <name>I press key "Enter"</name>
+                                    <title>I press key "Enter"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617107511455' status='passed' stop='1617107515929'>
+                            <name>Object: clickOnfirstLink </name>
+                            <title>Object: clickOnfirstLink </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617107511455' status='passed' stop='1617107511497'>
+                                    <name>I wait for visible "//h3[text()="CodeceptJS"]/..", 20</name>
+                                    <title>I wait for visible "//h3[text()="CodeceptJS"]/..", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617107511497' status='passed' stop='1617107515929'>
+                                    <name>I click "//h3[text()="CodeceptJS"]/.."</name>
+                                    <title>I click "//h3[text()="CodeceptJS"]/.."</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617107515929' status='passed' stop='1617107515981'>
+                    <name>Then User is navigated to codecept.io page </name>
+                    <title>Then User is navigated to codecept.io page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617107515929' status='passed' stop='1617107515981'>
+                            <name>Object: userOncodeceptjsPage </name>
+                            <title>Object: userOncodeceptjsPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617107515929' status='passed' stop='1617107515959'>
+                                    <name>I wait for visible "//span[text()="CodeceptJS"]/..", 20</name>
+                                    <title>I wait for visible "//span[text()="CodeceptJS"]/..", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617107515959' status='passed' stop='1617107515981'>
+                                    <name>I see element "//span[text()="CodeceptJS"]/.."</name>
+                                    <title>I see element "//span[text()="CodeceptJS"]/.."</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

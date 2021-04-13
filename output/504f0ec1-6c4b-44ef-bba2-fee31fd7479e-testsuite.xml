@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616395234677' stop='1616395277192'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616395254671' status='failed' stop='1616395276831'>
+            <name>Signup scenario @working</name>
+            <title>Signup scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616395254677' status='passed' stop='1616395256811'>
+                    <name>Given navigate to signUp Page </name>
+                    <title>Given navigate to signUp Page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616395254677' status='passed' stop='1616395256811'>
+                            <name>Object: reachedToHomePage </name>
+                            <title>Object: reachedToHomePage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616395254677' status='passed' stop='1616395256811'>
+                                    <name>I am on page "http://www.facebook.com/"</name>
+                                    <title>I am on page "http://www.facebook.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616395256811' status='failed' stop='1616395276830'>
+                    <name>Given fill the form </name>
+                    <title>Given fill the form </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616395256811' status='failed' stop='1616395276830'>
+                            <name>Object: enterSignUpData </name>
+                            <title>Object: enterSignUpData </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616395256811' status='failed' stop='1616395276829'>
+                                    <name>I wait for visible , 20</name>
+                                    <title>I wait for visible , 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='6682624f-9886-4ef8-9fd2-f2ff44664eaf-attachment.png' type='image/png' size='88228'/>
+            </attachments>
+            <failure>
+                <message>waitUntil condition failed with the following reason: selector needs to be typeof `string` or `function`</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: selector needs to be typeof `string` or `function`
+                    at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriverio\build\commands\browser\waitUntil.js:36:11
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at runNextTicks (internal/process/task_queues.js:62:3)
+                    at processTimers (internal/timers.js:494:9)
+                    at async Browser.wrapCommandFn (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\@wdio\utils\build\shim.js:74:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

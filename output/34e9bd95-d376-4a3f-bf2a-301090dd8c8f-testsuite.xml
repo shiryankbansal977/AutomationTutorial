@@ -1,0 +1,150 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617191017479' stop='1617191048390'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1617191029684' status='failed' stop='1617191048043'>
+            <name>find products scenario @working</name>
+            <title>find products scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1617191031915' status='passed' stop='1617191034817'>
+                    <name>Given user is on coolWinks site </name>
+                    <title>Given user is on coolWinks site </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617191031915' status='passed' stop='1617191034817'>
+                            <name>Object: navigateToCoolWinksSite </name>
+                            <title>Object: navigateToCoolWinksSite </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617191031915' status='passed' stop='1617191034817'>
+                                    <name>I am on page "https://www.coolwinks.com/"</name>
+                                    <title>I am on page "https://www.coolwinks.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617191034817' status='passed' stop='1617191035238'>
+                    <name>And click on sunglasses and select men </name>
+                    <title>And click on sunglasses and select men </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617191034817' status='passed' stop='1617191034976'>
+                            <name>Object: clickOnSunglasses </name>
+                            <title>Object: clickOnSunglasses </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617191034817' status='passed' stop='1617191034906'>
+                                    <name>I wait for visible "//a[text()="Sunglasses"]", 10</name>
+                                    <title>I wait for visible "//a[text()="Sunglasses"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617191034907' status='passed' stop='1617191034976'>
+                                    <name>I move cursor to "//a[text()="Sunglasses"]", 1, 1</name>
+                                    <title>I move cursor to "//a[text()="Sunglasses"]", 1, 1</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617191034976' status='passed' stop='1617191035238'>
+                            <name>Object: sunGlassesMenu </name>
+                            <title>Object: sunGlassesMenu </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617191034976' status='passed' stop='1617191035015'>
+                                    <name>I wait for visible "(//span[text()="Men"])[2]", 10</name>
+                                    <title>I wait for visible "(//span[text()="Men"])[2]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617191035015' status='passed' stop='1617191035238'>
+                                    <name>I click "(//span[text()="Men"])[2]"</name>
+                                    <title>I click "(//span[text()="Men"])[2]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617191035238' status='failed' stop='1617191048043'>
+                    <name>Then add item to the cart </name>
+                    <title>Then add item to the cart </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617191035238' status='passed' stop='1617191037900'>
+                            <name>Object: selectProductImage </name>
+                            <title>Object: selectProductImage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617191035238' status='passed' stop='1617191036611'>
+                                    <name>I wait for visible "//img[@src="https://cwcdn.coolwinks.com/mobile/mobile-prod-images-lite/SS_S67D6307-1.jpg"]", 10</name>
+                                    <title>I wait for visible "//img[@src="https://cwcdn.coolwinks.com/mobile/mobile-prod-images-lite/SS_S67D6307-1.jpg"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617191036611' status='passed' stop='1617191037900'>
+                                    <name>I click "//img[@src="https://cwcdn.coolwinks.com/mobile/mobile-prod-images-lite/SS_S67D6307-1.jpg"]"</name>
+                                    <title>I click "//img[@src="https://cwcdn.coolwinks.com/mobile/mobile-prod-images-lite/SS_S67D6307-1.jpg"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617191037900' status='passed' stop='1617191038022'>
+                            <name>Object: addProduct </name>
+                            <title>Object: addProduct </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617191037900' status='passed' stop='1617191037940'>
+                                    <name>I wait for visible "//button[@id="S67D6307_0"]", 10</name>
+                                    <title>I wait for visible "//button[@id="S67D6307_0"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617191037940' status='passed' stop='1617191038022'>
+                                    <name>I click "//button[@id="S67D6307_0"]"</name>
+                                    <title>I click "//button[@id="S67D6307_0"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617191038022' status='failed' stop='1617191048043'>
+                            <name>Object: addItemToTheCart </name>
+                            <title>Object: addItemToTheCart </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617191038022' status='failed' stop='1617191048042'>
+                                    <name>I switch to previous tab 2, 10</name>
+                                    <title>I switch to previous tab 2, 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='7006fe49-2fe3-47be-a69c-d5f805f5c21b-attachment.png' type='image/png' size='135072'/>
+            </attachments>
+            <failure>
+                <message>There is no ability to switch to previous tab with offset 2</message>
+                <stack-trace>Error: There is no ability to switch to previous tab with offset 2
+                    at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriverio\build\commands\browser\waitUntil.js:30:15
+                    at async Browser.wrapCommandFn (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\@wdio\utils\build\shim.js:74:23)
+                    at async WebDriver.switchToPreviousTab (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\helper\WebDriver.js:2366:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,104 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616482285670' stop='1616482350567'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616482336310' status='failed' stop='1616482350224'>
+            <name>Frame Handling @working</name>
+            <title>Frame Handling @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616482336319' status='passed' stop='1616482339910'>
+                    <name>Given navigate to frame page </name>
+                    <title>Given navigate to frame page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616482336319' status='passed' stop='1616482339910'>
+                            <name>Object: navigateToFramePage </name>
+                            <title>Object: navigateToFramePage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616482336319' status='passed' stop='1616482339908'>
+                                    <name>I am on page " http://demo.automationtesting.in/Frames.html"</name>
+                                    <title>I am on page " http://demo.automationtesting.in/Frames.html"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616482339910' status='passed' stop='1616482340209'>
+                    <name>Given enter text in single frame </name>
+                    <title>Given enter text in single frame </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616482339910' status='passed' stop='1616482340209'>
+                            <name>Object: enterTextInSingleFrame </name>
+                            <title>Object: enterTextInSingleFrame </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616482339910' status='passed' stop='1616482340042'>
+                                    <name>I wait for visible "//iframe", 5</name>
+                                    <title>I wait for visible "//iframe", 5</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616482340042' status='passed' stop='1616482340085'>
+                                    <name>I switch to "//iframe"</name>
+                                    <title>I switch to "//iframe"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616482340085' status='passed' stop='1616482340110'>
+                                    <name>I wait for visible "(//input[@type="text"])[1]", 10</name>
+                                    <title>I wait for visible "(//input[@type="text"])[1]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616482340110' status='passed' stop='1616482340209'>
+                                    <name>I fill field "(//input[@type="text"])[1]", "Hello World!"</name>
+                                    <title>I fill field "(//input[@type="text"])[1]", "Hello World!"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616482340209' status='failed' stop='1616482350223'>
+                    <name>Then click on iframe with in an iframe </name>
+                    <title>Then click on iframe with in an iframe </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616482340209' status='failed' stop='1616482350223'>
+                            <name>Object: clickOnIframeWithInAnIframe </name>
+                            <title>Object: clickOnIframeWithInAnIframe </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616482340209' status='failed' stop='1616482350221'>
+                                    <name>I wait for visible "//a[@href="#Multiple"]", 10</name>
+                                    <title>I wait for visible "//a[@href="#Multiple"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='1f42e85f-2054-409e-9b93-b677dbb76ddf-attachment.png' type='image/png' size='24264'/>
+            </attachments>
+            <failure>
+                <message>element (//a[@href="#Multiple"]) still not visible after 10 sec</message>
+                <stack-trace>Error: element (//a[@href="#Multiple"]) still not visible after 10 sec
+                    at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriverio\build\commands\browser\waitUntil.js:30:15
+                    at async Browser.wrapCommandFn (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\@wdio\utils\build\shim.js:74:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

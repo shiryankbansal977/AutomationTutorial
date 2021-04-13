@@ -1,0 +1,108 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616496833800' stop='1616496869386'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616496865197' status='passed' stop='1616496869349'>
+            <name>Frame Handling @working</name>
+            <title>Frame Handling @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616496865206' status='passed' stop='1616496868868'>
+                    <name>Given navigate to frame page </name>
+                    <title>Given navigate to frame page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616496865206' status='passed' stop='1616496868868'>
+                            <name>Object: navigateToFramePage </name>
+                            <title>Object: navigateToFramePage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616496865206' status='passed' stop='1616496868868'>
+                                    <name>I am on page " http://demo.automationtesting.in/Frames.html"</name>
+                                    <title>I am on page " http://demo.automationtesting.in/Frames.html"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616496868868' status='passed' stop='1616496869234'>
+                    <name>Given enter text in single frame </name>
+                    <title>Given enter text in single frame </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616496868868' status='passed' stop='1616496869234'>
+                            <name>Object: enterTextInSingleFrame </name>
+                            <title>Object: enterTextInSingleFrame </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616496868868' status='passed' stop='1616496869061'>
+                                    <name>I wait for visible "//iframe", 5</name>
+                                    <title>I wait for visible "//iframe", 5</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616496869061' status='passed' stop='1616496869107'>
+                                    <name>I switch to "//iframe"</name>
+                                    <title>I switch to "//iframe"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616496869107' status='passed' stop='1616496869135'>
+                                    <name>I wait for visible "(//input[@type="text"])[1]", 10</name>
+                                    <title>I wait for visible "(//input[@type="text"])[1]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616496869135' status='passed' stop='1616496869234'>
+                                    <name>I fill field "(//input[@type="text"])[1]", "Hello World!"</name>
+                                    <title>I fill field "(//input[@type="text"])[1]", "Hello World!"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616496869234' status='passed' stop='1616496869349'>
+                    <name>Then click on iframe with in an iframe </name>
+                    <title>Then click on iframe with in an iframe </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616496869234' status='passed' stop='1616496869349'>
+                            <name>Object: clickOnIframeWithInAnIframe </name>
+                            <title>Object: clickOnIframeWithInAnIframe </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616496869234' status='passed' stop='1616496869241'>
+                                    <name>I switch to </name>
+                                    <title>I switch to </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616496869241' status='passed' stop='1616496869274'>
+                                    <name>I wait for visible "//a[@href="#Multiple"]", 10</name>
+                                    <title>I wait for visible "//a[@href="#Multiple"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616496869274' status='passed' stop='1616496869349'>
+                                    <name>I click "//a[@href="#Multiple"]"</name>
+                                    <title>I click "//a[@href="#Multiple"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

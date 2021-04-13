@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617107430542' stop='1617107448672'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1617107447023' status='failed' stop='1617107448324'>
+            <name>sauce Demo Scenario @working</name>
+            <title>sauce Demo Scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1617107447031' status='passed' stop='1617107447996'>
+                    <name>Given navigate to sauceDemo Page </name>
+                    <title>Given navigate to sauceDemo Page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617107447031' status='passed' stop='1617107447996'>
+                            <name>Object: navigateToSauceDemoPage </name>
+                            <title>Object: navigateToSauceDemoPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617107447031' status='passed' stop='1617107447996'>
+                                    <name>I am on page " https://www.saucedemo.com/"</name>
+                                    <title>I am on page " https://www.saucedemo.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617107447996' status='failed' stop='1617107448324'>
+                    <name>And enter the username and pw </name>
+                    <title>And enter the username and pw </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617107447996' status='passed' stop='1617107448186'>
+                            <name>Object: enterUserName </name>
+                            <title>Object: enterUserName </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617107447996' status='passed' stop='1617107448039'>
+                                    <name>I wait for visible "//input[@name="user-name"]", 40</name>
+                                    <title>I wait for visible "//input[@name="user-name"]", 40</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617107448039' status='passed' stop='1617107448186'>
+                                    <name>I fill field "//input[@name="user-name"]", "standard_user"</name>
+                                    <title>I fill field "//input[@name="user-name"]", "standard_user"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617107448186' status='failed' stop='1617107448324'>
+                            <name>Object: enterPassword </name>
+                            <title>Object: enterPassword </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617107448186' status='passed' stop='1617107448216'>
+                                    <name>I wait for visible "//input[@id="password"]", 10</name>
+                                    <title>I wait for visible "//input[@id="password"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617107448216' status='passed' stop='1617107448324'>
+                                    <name>I fill field "//input[@id="password"]", "secret_sauce"</name>
+                                    <title>I fill field "//input[@id="password"]", "secret_sauce"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='8c67c3ce-a269-414c-afa7-8ef67169e5fd-attachment.png' type='image/png' size='46719'/>
+            </attachments>
+            <failure>
+                <message>this.fields.pwBttn is not a function</message>
+                <stack-trace>TypeError: this.fields.pwBttn is not a function
+                    at Object.clickLogin (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\src\pages\sauceDemoPage.js:24:38)
+                    at Object.enterTheUsernameAndPw (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\src\pages\sauceDemoPage.js:30:14)
+                    at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\src\step_definitions\web\sauceStepFile.js:9:13
+                    at runSteps (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\interfaces\gherkin.js:48:15)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,122 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616152204559' stop='1616152219502'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616152214669' status='passed' stop='1616152219475'>
+            <name>Practise scenario @working</name>
+            <title>Practise scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616152214677' status='passed' stop='1616152215329'>
+                    <name>Given navigate to google </name>
+                    <title>Given navigate to google </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616152214678' status='passed' stop='1616152215329'>
+                            <name>Object: reachedToUrl </name>
+                            <title>Object: reachedToUrl </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616152214678' status='passed' stop='1616152215329'>
+                                    <name>I am on page </name>
+                                    <title>I am on page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616152215329' status='passed' stop='1616152216285'>
+                    <name>When search resreq to google </name>
+                    <title>When search resreq to google </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616152215329' status='passed' stop='1616152216285'>
+                            <name>Object: enterDataInGoogle </name>
+                            <title>Object: enterDataInGoogle </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616152215329' status='passed' stop='1616152215366'>
+                                    <name>I wait for visible "//input[@name="q"]", 20</name>
+                                    <title>I wait for visible "//input[@name="q"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616152215366' status='passed' stop='1616152215459'>
+                                    <name>I fill field "//input[@name="q"]", "resreq"</name>
+                                    <title>I fill field "//input[@name="q"]", "resreq"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616152215459' status='passed' stop='1616152216285'>
+                                    <name>I press key "Enter"</name>
+                                    <title>I press key "Enter"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616152216285' status='passed' stop='1616152219395'>
+                    <name>And click on the link of reqres.in from google </name>
+                    <title>And click on the link of reqres.in from google </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616152216285' status='passed' stop='1616152219395'>
+                            <name>Object: clickOnFirstLink </name>
+                            <title>Object: clickOnFirstLink </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616152216285' status='passed' stop='1616152216377'>
+                                    <name>I wait for visible "//a[@href="https://reqres.in/"]", 20</name>
+                                    <title>I wait for visible "//a[@href="https://reqres.in/"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616152216377' status='passed' stop='1616152219395'>
+                                    <name>I click "//a[@href="https://reqres.in/"]"</name>
+                                    <title>I click "//a[@href="https://reqres.in/"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616152219395' status='passed' stop='1616152219475'>
+                    <name>Then verify page should be visible of reqres.in </name>
+                    <title>Then verify page should be visible of reqres.in </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616152219395' status='passed' stop='1616152219475'>
+                            <name>Object: userOnResReqPage </name>
+                            <title>Object: userOnResReqPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616152219395' status='passed' stop='1616152219448'>
+                                    <name>I wait for visible "/html/body/div[1]", 20</name>
+                                    <title>I wait for visible "/html/body/div[1]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616152219448' status='passed' stop='1616152219475'>
+                                    <name>I see element "/html/body/div[1]"</name>
+                                    <title>I see element "/html/body/div[1]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

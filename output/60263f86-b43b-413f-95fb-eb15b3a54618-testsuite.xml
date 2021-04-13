@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616414359363' stop='1616414391930'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616414388259' status='failed' stop='1616414391493'>
+            <name>Signup scenario @working</name>
+            <title>Signup scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616414388267' status='passed' stop='1616414391440'>
+                    <name>Given navigate to flipkartSignUp Page </name>
+                    <title>Given navigate to flipkartSignUp Page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616414388267' status='passed' stop='1616414391440'>
+                            <name>Object: navigateToFlipkartSignUpPage </name>
+                            <title>Object: navigateToFlipkartSignUpPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616414388267' status='passed' stop='1616414391440'>
+                                    <name>I am on page "https://www.flipkart.com/"</name>
+                                    <title>I am on page "https://www.flipkart.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616414391440' status='failed' stop='1616414391492'>
+                    <name>And fill the signUpDetails </name>
+                    <title>And fill the signUpDetails </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616414391440' status='failed' stop='1616414391492'>
+                            <name>Object: clickOnNewAcc </name>
+                            <title>Object: clickOnNewAcc </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616414391440' status='passed' stop='1616414391491'>
+                                    <name>I wait for visible "//a[@href="/account/login?signup=true"]", 20</name>
+                                    <title>I wait for visible "//a[@href="/account/login?signup=true"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='f6fd9665-5daf-45d3-b4bf-3710cf0308c4-attachment.png' type='image/png' size='137455'/>
+            </attachments>
+            <failure>
+                <message>this.fieldss.search is not a function</message>
+                <stack-trace>TypeError: this.fieldss.search is not a function
+                    at Object.clickOnNewAcc (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\src\pages\flipkartPage.js:18:28)
+                    at Object.fillTheSignUpDetails (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\src\pages\flipkartPage.js:22:10)
+                    at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\src\step_definitions\web\flipkartStepFile.js:13:17
+                    at runSteps (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\interfaces\gherkin.js:48:15)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

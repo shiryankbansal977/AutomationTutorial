@@ -1,0 +1,148 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616485006255' stop='1616485046384'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616485032088' status='failed' stop='1616485046038'>
+            <name>Frame Handling @working</name>
+            <title>Frame Handling @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616485032097' status='passed' stop='1616485035461'>
+                    <name>Given navigate to frame page </name>
+                    <title>Given navigate to frame page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616485032097' status='passed' stop='1616485035461'>
+                            <name>Object: navigateToFramePage </name>
+                            <title>Object: navigateToFramePage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616485032097' status='passed' stop='1616485035460'>
+                                    <name>I am on page " http://demo.automationtesting.in/Frames.html"</name>
+                                    <title>I am on page " http://demo.automationtesting.in/Frames.html"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616485035461' status='passed' stop='1616485035760'>
+                    <name>Given enter text in single frame </name>
+                    <title>Given enter text in single frame </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616485035461' status='passed' stop='1616485035760'>
+                            <name>Object: enterTextInSingleFrame </name>
+                            <title>Object: enterTextInSingleFrame </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616485035461' status='passed' stop='1616485035589'>
+                                    <name>I wait for visible "//iframe", 5</name>
+                                    <title>I wait for visible "//iframe", 5</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616485035589' status='passed' stop='1616485035633'>
+                                    <name>I switch to "//iframe"</name>
+                                    <title>I switch to "//iframe"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616485035633' status='passed' stop='1616485035657'>
+                                    <name>I wait for visible "(//input[@type="text"])[1]", 10</name>
+                                    <title>I wait for visible "(//input[@type="text"])[1]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616485035657' status='passed' stop='1616485035760'>
+                                    <name>I fill field "(//input[@type="text"])[1]", "Hello World!"</name>
+                                    <title>I fill field "(//input[@type="text"])[1]", "Hello World!"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616485035760' status='passed' stop='1616485035875'>
+                    <name>Then click on iframe with in an iframe </name>
+                    <title>Then click on iframe with in an iframe </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616485035760' status='passed' stop='1616485035875'>
+                            <name>Object: clickOnIframeWithInAnIframe </name>
+                            <title>Object: clickOnIframeWithInAnIframe </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616485035760' status='passed' stop='1616485035767'>
+                                    <name>I switch to </name>
+                                    <title>I switch to </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616485035767' status='passed' stop='1616485035801'>
+                                    <name>I wait for visible "//a[@href="#Multiple"]", 10</name>
+                                    <title>I wait for visible "//a[@href="#Multiple"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616485035801' status='passed' stop='1616485035875'>
+                                    <name>I click "//a[@href="#Multiple"]"</name>
+                                    <title>I click "//a[@href="#Multiple"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616485035875' status='failed' stop='1616485046037'>
+                    <name>Then enter text in iframe </name>
+                    <title>Then enter text in iframe </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616485035875' status='failed' stop='1616485046037'>
+                            <name>Object: enterTextInIframe </name>
+                            <title>Object: enterTextInIframe </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616485035875' status='passed' stop='1616485035975'>
+                                    <name>I wait for visible "//iframe", 10</name>
+                                    <title>I wait for visible "//iframe", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616485035975' status='passed' stop='1616485036019'>
+                                    <name>I switch to "//iframe"</name>
+                                    <title>I switch to "//iframe"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616485036019' status='failed' stop='1616485046036'>
+                                    <name>I wait for visible "(//input[@type="text"])[1]", 10</name>
+                                    <title>I wait for visible "(//input[@type="text"])[1]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='2d4a09d5-180e-4183-bfc4-555f51b53bbf-attachment.png' type='image/png' size='23173'/>
+            </attachments>
+            <failure>
+                <message>element ((//input[@type="text"])[1]) still not visible after 10 sec</message>
+                <stack-trace>Error: element ((//input[@type="text"])[1]) still not visible after 10 sec
+                    at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriverio\build\commands\browser\waitUntil.js:30:15
+                    at async Browser.wrapCommandFn (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\@wdio\utils\build\shim.js:74:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

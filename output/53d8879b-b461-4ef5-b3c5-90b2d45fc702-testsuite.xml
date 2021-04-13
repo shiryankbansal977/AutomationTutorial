@@ -1,0 +1,114 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617196487826' stop='1617196531152'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1617196518092' status='failed' stop='1617196531149'>
+            <name>find products scenario @working</name>
+            <title>find products scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1617196520292' status='passed' stop='1617196523187'>
+                    <name>Given user is on coolWinks site </name>
+                    <title>Given user is on coolWinks site </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617196520292' status='passed' stop='1617196523187'>
+                            <name>Object: navigateToCoolWinksSite </name>
+                            <title>Object: navigateToCoolWinksSite </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617196520292' status='passed' stop='1617196523186'>
+                                    <name>I am on page "https://www.coolwinks.com/"</name>
+                                    <title>I am on page "https://www.coolwinks.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617196523187' status='passed' stop='1617196525365'>
+                    <name>And click on sunglasses and select men </name>
+                    <title>And click on sunglasses and select men </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617196523187' status='passed' stop='1617196523602'>
+                            <name>Object: clickOnSunglasses </name>
+                            <title>Object: clickOnSunglasses </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617196523187' status='passed' stop='1617196523534'>
+                                    <name>I wait for visible "//a[text()="Sunglasses"]", 10</name>
+                                    <title>I wait for visible "//a[text()="Sunglasses"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617196523534' status='passed' stop='1617196523602'>
+                                    <name>I move cursor to "//a[text()="Sunglasses"]", 1, 1</name>
+                                    <title>I move cursor to "//a[text()="Sunglasses"]", 1, 1</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617196523602' status='passed' stop='1617196525365'>
+                            <name>Object: sunGlassesMenu </name>
+                            <title>Object: sunGlassesMenu </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617196523602' status='passed' stop='1617196523746'>
+                                    <name>I wait for visible "(//span[text()="Men"])[2]", 10</name>
+                                    <title>I wait for visible "(//span[text()="Men"])[2]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617196523746' status='passed' stop='1617196525365'>
+                                    <name>I click "(//span[text()="Men"])[2]"</name>
+                                    <title>I click "(//span[text()="Men"])[2]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617196525365' status='failed' stop='1617196531128'>
+                    <name>Then add item to the cart </name>
+                    <title>Then add item to the cart </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617196525365' status='failed' stop='1617196531128'>
+                            <name>Object: selectProductImage </name>
+                            <title>Object: selectProductImage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617196525365' status='passed' stop='1617196525397'>
+                                    <name>I wait for visible "//img[@src="https://cwcdn.coolwinks.com/mobile/mobile-prod-images-lite/SS_S67D6307-1.jpg"]", 10</name>
+                                    <title>I wait for visible "//img[@src="https://cwcdn.coolwinks.com/mobile/mobile-prod-images-lite/SS_S67D6307-1.jpg"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617196525397' status='failed' stop='1617196531126'>
+                                    <name>I click "//img[@src="https://cwcdn.coolwinks.com/mobile/mobile-prod-images-lite/SS_S67D6307-1.jpg"]"</name>
+                                    <title>I click "//img[@src="https://cwcdn.coolwinks.com/mobile/mobile-prod-images-lite/SS_S67D6307-1.jpg"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>connect ECONNREFUSED 127.0.0.1:4444</message>
+                <stack-trace>Error: connect ECONNREFUSED 127.0.0.1:4444
+                    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

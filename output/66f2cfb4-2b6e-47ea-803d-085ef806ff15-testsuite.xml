@@ -1,0 +1,224 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617342114015' stop='1617342130165'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1617342128642' status='passed' stop='1617342130136'>
+            <name>sauce Demo Scenario @working</name>
+            <title>sauce Demo Scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1617342128657' status='passed' stop='1617342129069'>
+                    <name>Given navigate to sauceDemo Page </name>
+                    <title>Given navigate to sauceDemo Page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617342128658' status='passed' stop='1617342129069'>
+                            <name>Object: navigateToSauceDemoPage </name>
+                            <title>Object: navigateToSauceDemoPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617342128658' status='passed' stop='1617342129068'>
+                                    <name>I am on page " https://www.saucedemo.com/"</name>
+                                    <title>I am on page " https://www.saucedemo.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617342129069' status='passed' stop='1617342129669'>
+                    <name>And enter the username and pw </name>
+                    <title>And enter the username and pw </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617342129069' status='passed' stop='1617342129307'>
+                            <name>Object: enterUserName </name>
+                            <title>Object: enterUserName </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617342129069' status='passed' stop='1617342129124'>
+                                    <name>I wait for visible "//input[@name="user-name"]", 40</name>
+                                    <title>I wait for visible "//input[@name="user-name"]", 40</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617342129124' status='passed' stop='1617342129306'>
+                                    <name>I fill field "//input[@name="user-name"]", "standard_user"</name>
+                                    <title>I fill field "//input[@name="user-name"]", "standard_user"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617342129307' status='passed' stop='1617342129488'>
+                            <name>Object: enterPassword </name>
+                            <title>Object: enterPassword </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617342129307' status='passed' stop='1617342129346'>
+                                    <name>I wait for visible "//input[@id="password"]", 10</name>
+                                    <title>I wait for visible "//input[@id="password"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617342129347' status='passed' stop='1617342129488'>
+                                    <name>I fill field "//input[@id="password"]", "secret_sauce"</name>
+                                    <title>I fill field "//input[@id="password"]", "secret_sauce"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617342129488' status='passed' stop='1617342129669'>
+                            <name>Object: clickLogin </name>
+                            <title>Object: clickLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617342129488' status='passed' stop='1617342129523'>
+                                    <name>I wait for visible "//input[@id="login-button"]", 10</name>
+                                    <title>I wait for visible "//input[@id="login-button"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617342129523' status='passed' stop='1617342129669'>
+                                    <name>I click "//input[@id="login-button"]"</name>
+                                    <title>I click "//input[@id="login-button"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617342129669' status='passed' stop='1617342129791'>
+                    <name>Then add product into the cart </name>
+                    <title>Then add product into the cart </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617342129669' status='passed' stop='1617342129791'>
+                            <name>Object: addToTheCart </name>
+                            <title>Object: addToTheCart </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617342129669' status='passed' stop='1617342129715'>
+                                    <name>I wait for visible "//button[@id="add-to-cart-sauce-labs-backpack"]", 10</name>
+                                    <title>I wait for visible "//button[@id="add-to-cart-sauce-labs-backpack"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617342129715' status='passed' stop='1617342129791'>
+                                    <name>I click "//button[@id="add-to-cart-sauce-labs-backpack"]"</name>
+                                    <title>I click "//button[@id="add-to-cart-sauce-labs-backpack"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617342129791' status='passed' stop='1617342129941'>
+                    <name>Then verify new item should be added </name>
+                    <title>Then verify new item should be added </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617342129791' status='passed' stop='1617342129941'>
+                            <name>Object: verifyAddedItems </name>
+                            <title>Object: verifyAddedItems </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617342129791' status='passed' stop='1617342129828'>
+                                    <name>I wait for visible "//span[text()="1"]", 10</name>
+                                    <title>I wait for visible "//span[text()="1"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617342129828' status='passed' stop='1617342129855'>
+                                    <name>I see element "//span[text()="1"]"</name>
+                                    <title>I see element "//span[text()="1"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617342129855' status='passed' stop='1617342129941'>
+                                    <name>I click "//span[text()="1"]"</name>
+                                    <title>I click "//span[text()="1"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1617342129941' status='passed' stop='1617342130136'>
+                    <name>Then go to cart and verify the details </name>
+                    <title>Then go to cart and verify the details </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617342129941' status='passed' stop='1617342130009'>
+                            <name>Object: checkName </name>
+                            <title>Object: checkName </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617342129941' status='passed' stop='1617342129982'>
+                                    <name>I wait for visible "//div[text()="Sauce Labs Backpack"]", 10</name>
+                                    <title>I wait for visible "//div[text()="Sauce Labs Backpack"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617342129982' status='passed' stop='1617342130009'>
+                                    <name>I see element "//div[text()="Sauce Labs Backpack"]"</name>
+                                    <title>I see element "//div[text()="Sauce Labs Backpack"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617342130009' status='passed' stop='1617342130077'>
+                            <name>Object: checkData </name>
+                            <title>Object: checkData </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617342130009' status='passed' stop='1617342130052'>
+                                    <name>I wait for visible "//div[text()="carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection."]", 10</name>
+                                    <title>I wait for visible "//div[text()="carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection."]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617342130052' status='passed' stop='1617342130077'>
+                                    <name>I see element "//div[text()="carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection."]"</name>
+                                    <title>I see element "//div[text()="carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection."]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1617342130077' status='passed' stop='1617342130136'>
+                            <name>Object: checkPrice </name>
+                            <title>Object: checkPrice </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1617342130077' status='passed' stop='1617342130111'>
+                                    <name>I wait for visible "//div[text()="29.99"]", 10</name>
+                                    <title>I wait for visible "//div[text()="29.99"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1617342130111' status='passed' stop='1617342130136'>
+                                    <name>I see element "//div[text()="29.99"]"</name>
+                                    <title>I see element "//div[text()="29.99"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

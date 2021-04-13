@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616479186254' stop='1616479207967'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616479203883' status='failed' stop='1616479207624'>
+            <name>Signup scenario @working</name>
+            <title>Signup scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616479203891' status='passed' stop='1616479207451'>
+                    <name>Given navigate to flipkartSignUp Page </name>
+                    <title>Given navigate to flipkartSignUp Page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616479203891' status='passed' stop='1616479207451'>
+                            <name>Object: navigateToFlipkartSignUpPage </name>
+                            <title>Object: navigateToFlipkartSignUpPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616479203891' status='passed' stop='1616479207451'>
+                                    <name>I am on page "https://www.flipkart.com/"</name>
+                                    <title>I am on page "https://www.flipkart.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616479207451' status='failed' stop='1616479207624'>
+                    <name>And fill the signUpDetails </name>
+                    <title>And fill the signUpDetails </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616479207451' status='passed' stop='1616479207580'>
+                            <name>Object: clickOnNewAcc </name>
+                            <title>Object: clickOnNewAcc </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616479207451' status='passed' stop='1616479207490'>
+                                    <name>I wait for visible "//a[@href="/account/login?signup=true"]", 10</name>
+                                    <title>I wait for visible "//a[@href="/account/login?signup=true"]", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616479207491' status='passed' stop='1616479207580'>
+                                    <name>I click "//a[@href="/account/login?signup=true"]"</name>
+                                    <title>I click "//a[@href="/account/login?signup=true"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1616479207580' status='failed' stop='1616479207624'>
+                            <name>Object: enterMobileNo </name>
+                            <title>Object: enterMobileNo </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616479207580' status='passed' stop='1616479207610'>
+                                    <name>I wait for visible "//span[text()="Enter Mobile number"]/../..", 10</name>
+                                    <title>I wait for visible "//span[text()="Enter Mobile number"]/../..", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1616479207610' status='failed' stop='1616479207623'>
+                                    <name>I fill field "//span[text()="Enter Mobile number"]/../..", </name>
+                                    <title>I fill field "//span[text()="Enter Mobile number"]/../..", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='4565e4fe-fd6e-4001-8611-ff85c7583cd3-attachment.png' type='image/png' size='135603'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'toString' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'toString' of undefined
+                    at WebDriver.fillField (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\codeceptjs\lib\helper\WebDriver.js:955:32)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

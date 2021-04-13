@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616151999960' stop='1616152034419'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616152010006' status='failed' stop='1616152034050'>
+            <name>Practise scenario @working</name>
+            <title>Practise scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616152010013' status='passed' stop='1616152014038'>
+                    <name>Given navigate to google </name>
+                    <title>Given navigate to google </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616152010013' status='passed' stop='1616152014038'>
+                            <name>Object: reachedToUrl </name>
+                            <title>Object: reachedToUrl </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616152010014' status='passed' stop='1616152014038'>
+                                    <name>I am on page "https://reqres.in/"</name>
+                                    <title>I am on page "https://reqres.in/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616152014038' status='failed' stop='1616152034049'>
+                    <name>When search resreq to google </name>
+                    <title>When search resreq to google </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616152014038' status='failed' stop='1616152034049'>
+                            <name>Object: enterDataInGoogle </name>
+                            <title>Object: enterDataInGoogle </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616152014038' status='failed' stop='1616152034047'>
+                                    <name>I wait for visible "//input[@name="q"]", 20</name>
+                                    <title>I wait for visible "//input[@name="q"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='6d912882-8a63-40c2-a6fe-ffc25ed794b4-attachment.png' type='image/png' size='106467'/>
+            </attachments>
+            <failure>
+                <message>element (//input[@name="q"]) still not visible after 20 sec</message>
+                <stack-trace>Error: element (//input[@name="q"]) still not visible after 20 sec
+                    at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriverio\build\commands\browser\waitUntil.js:30:15
+                    at async Browser.wrapCommandFn (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\@wdio\utils\build\shim.js:74:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

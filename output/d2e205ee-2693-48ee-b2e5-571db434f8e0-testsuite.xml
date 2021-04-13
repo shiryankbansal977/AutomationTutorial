@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1616394870707' stop='1616394916163'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1616394894157' status='failed' stop='1616394915814'>
+            <name>Signup scenario @working</name>
+            <title>Signup scenario @working</title>
+            <labels>
+                <label name='tag' value='@working'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1616394894164' status='passed' stop='1616394895796'>
+                    <name>Given navigate to signUp Page </name>
+                    <title>Given navigate to signUp Page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616394894164' status='passed' stop='1616394895796'>
+                            <name>Object: reachedToHomePage </name>
+                            <title>Object: reachedToHomePage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616394894164' status='passed' stop='1616394895796'>
+                                    <name>I am on page "http://www.facebook.com/"</name>
+                                    <title>I am on page "http://www.facebook.com/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1616394895796' status='failed' stop='1616394915813'>
+                    <name>Given fill the form </name>
+                    <title>Given fill the form </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1616394895796' status='failed' stop='1616394915813'>
+                            <name>Object: enterSignUpData </name>
+                            <title>Object: enterSignUpData </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1616394895796' status='failed' stop='1616394915812'>
+                                    <name>I wait for visible "//input[@id="u_p_b_Wn"]", 20</name>
+                                    <title>I wait for visible "//input[@id="u_p_b_Wn"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='f7773238-3f4e-4270-988f-5211e07f90ed-attachment.png' type='image/png' size='34541'/>
+            </attachments>
+            <failure>
+                <message>element (//input[@id="u_p_b_Wn"]) still not visible after 20 sec</message>
+                <stack-trace>Error: element (//input[@id="u_p_b_Wn"]) still not visible after 20 sec
+                    at C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\webdriverio\build\commands\browser\waitUntil.js:30:15
+                    at async Browser.wrapCommandFn (C:\Users\shiryank\Downloads\UI_codeceptjs-boilerplate (1)\dentsu-bdd-js-boilerplate\codecept-tests\node_modules\@wdio\utils\build\shim.js:74:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
